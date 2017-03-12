@@ -1,5 +1,7 @@
 text{
 
     font-family: MicoSoft Yahei;
+	font-size: 24rpx;
+    color: #666;
 
 }
