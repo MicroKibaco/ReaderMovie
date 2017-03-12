@@ -4,10 +4,10 @@
 
 <!--image组件默认宽度300px、高度225px-->
 
-<image style="width:200rpx ;height:200rpx" src="/images/1.png"  >
+<image class="user-avatar"  src="/images/1.png" >
 
 </image>
-<text>Hello,小木箱</text>
+<text>Hello,杨正友</text>
 <view>
 <text>
 开启小程序之旅

@@ -1,1 +1,8 @@
 /* pages/welcome/weclome.wxss */
+
+.user-avatar{
+
+    width: 200rpx;
+	height: 200rpx;
+
+}
