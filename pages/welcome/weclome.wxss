@@ -1,8 +1,40 @@
 /* pages/welcome/weclome.wxss */
 
+.container{
+
+    /* 弹性模型 */
+    display: flex;
+	/* 列布局 */
+	flex-direction: column;
+	/* 居中摆放 */
+	align-items: center;
+
+}
+
+/* 头像 */
 .user-avatar{
 
     width: 200rpx;
 	height: 200rpx;
+	margin-top: 162rpx;
 
 }
+
+/* 标题栏 */
+.user-name{
+
+    font-size: 32rpx;
+	font-family: MicoSoft Yahei;
+	font-weight: bold;
+
+}
+
+/* 欢迎语 */
+.moto{
+
+	font-size: 22rpx;
+	font-family: MicoSoft Yahei;
+	font-weight: bold;
+
+}
+

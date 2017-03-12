@@ -1,16 +1,16 @@
 <!--wxml编写小程序骨架的文件-->
 <!--div标签,分割文档,容器-->
-<view>
 
-<!--image组件默认宽度300px、高度225px-->
+<view class="container">
+        
+		<!--image组件默认宽度300px、高度225px-->
+      <image class="user-avatar"  src="/images/loading_anim.gif" ></image>
+      <text class="user-name">Hello,杨正友</text>
 
-<image class="user-avatar"  src="/images/1.png" >
+	<view>
+		<text class="moto">
+			亚信科技有限公司欢迎您
+		</text>
+	</view>
 
-</image>
-<text>Hello,杨正友</text>
-<view>
-<text>
-开启小程序之旅
-</text>
-</view>
 </view>
