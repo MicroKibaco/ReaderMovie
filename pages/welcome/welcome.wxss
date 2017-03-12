@@ -1,0 +1,69 @@
+/* pages/welcome/welcome.wxss */
+
+.container{
+
+    /* 弹性模型 */
+    display: flex;
+	/* 列布局 */
+	flex-direction: column;
+	/* 居中摆放 */
+	align-items: center;
+	
+
+
+}
+
+/* 头像 */
+.user-avatar{
+
+    width:200rpx;
+    height:200rpx;
+    margin-top:160rpx;
+
+}
+
+/* 标题栏 */
+.user-name{
+
+     margin-top:100rpx;
+    font-size:32rpx;
+    font-weight: bold;
+
+}
+
+/* 欢迎语 */
+.moto{
+
+	font-size: 22rpx;
+	font-weight: bold;
+	line-height: 80rpx;
+	color: #405f80;
+
+}
+
+.moto-container{
+
+    border: 1px solid #405f80;
+	width: 200rpx;
+	height: 80rpx;
+	
+	/* 圆角矩形 */
+	border-radius: 5px;
+	
+	/* 文字水平垂直居中 */
+	text-align: center;
+
+	margin-top: 200rpx;
+
+}
+
+/* view外面包裹着一层page节点,我们通过,控制page高度调控整个页面的高度 */
+
+page{
+
+   background-color: #a5e7f8;
+   height: 100%;
+
+}
+
+
