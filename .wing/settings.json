@@ -3,7 +3,7 @@
     // 字体.
 "editor.fontFamily": "'Courier New'",
 // 字体大小.
-"editor.fontSize": 14,
+  "editor.fontSize": 16,
 // 显示行号
 "editor.lineNumbers": "on",
 // 一个制表符等于的空格数

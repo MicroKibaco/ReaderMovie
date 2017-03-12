@@ -1,0 +1,11 @@
+<view class="container">
+
+    <image class="user-avatar" src="/images/loading_anim.gif"></image>
+    
+    <text class="user-name">Hello, Weclome to Asiainfo !</text>
+
+    <view class="moto-container" bindtap="onTap">
+        <text class="moto">开启小程序之旅</text>
+    </view>
+
+</view>

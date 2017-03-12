@@ -1,0 +1,21 @@
+<!--滑动视图容器 swiper-->
+
+<view>
+
+<!--swiper只可放置<swiper-item/>组件，否则会导致未定义的行为,宽高自动适应至100%-->
+   <swiper indicator-dots="true" autoplay="true" interval="2000">
+
+    <swiper-item>
+	  <image mode="aspectFill"   src="/images/china-great-wall.jpg"></image>
+	</swiper-item>
+
+    <swiper-item>	
+	    <image mode="aspectFill"   src="/images/salt-lake.jpg"></image>
+    </swiper-item>
+
+	<swiper-item>	
+	    <image mode="aspectFill"   src="/images/guitarist.jpg"></image>
+    </swiper-item>
+   </swiper>
+
+</view>
