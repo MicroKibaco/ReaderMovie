@@ -1,0 +1,20 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // 字体.
+"editor.fontFamily": "'Courier New'",
+// 字体大小.
+"editor.fontSize": 14,
+// 显示行号
+"editor.lineNumbers": "on",
+// 一个制表符等于的空格数
+"editor.tabSize": 4,
+// 按 "Tab" 时插入空格
+"editor.insertSpaces": false,
+
+// 读取或写入文件的默认编码格式.
+"files.encoding": "utf8",
+// 默认换行符
+"files.eol": "\n"
+}
+
+

@@ -1,0 +1,16 @@
+<!--wxml编写小程序骨架的文件-->
+<!--div标签,分割文档,容器-->
+<view>
+
+<!--image组件默认宽度300px、高度225px-->
+
+<image style="width:200rpx ;height:200rpx" src="/images/1.png"  >
+
+</image>
+<text>Hello,小木箱</text>
+<view>
+<text>
+开启小程序之旅
+</text>
+</view>
+</view>
