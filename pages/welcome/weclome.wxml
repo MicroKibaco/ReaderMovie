@@ -4,12 +4,12 @@
 <view class="container">
         
 		<!--image组件默认宽度300px、高度225px-->
-      <image class="user-avatar"  src="/images/loading_anim.gif" ></image>
-      <text class="user-name">Hello,杨正友</text>
+      <image class="user-avatar"  src="/images/loading_anim.gif"  ></image>
+      <text class="user-name">Hello, Weclome to Asiainfo !</text>
 
-	<view>
+	<view class="moto-container" bindtap="onTap">
 		<text class="moto">
-			亚信科技有限公司欢迎您
+			开启小程序之旅
 		</text>
 	</view>
 

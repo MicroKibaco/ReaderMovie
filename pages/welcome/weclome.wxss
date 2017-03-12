@@ -8,6 +8,8 @@
 	flex-direction: column;
 	/* 居中摆放 */
 	align-items: center;
+	
+
 
 }
 
@@ -16,7 +18,7 @@
 
     width: 200rpx;
 	height: 200rpx;
-	margin-top: 162rpx;
+	margin-top: 160rpx;
 
 }
 
@@ -24,8 +26,8 @@
 .user-name{
 
     font-size: 32rpx;
-	font-family: MicoSoft Yahei;
 	font-weight: bold;
+	margin-top: 100rpx;
 
 }
 
@@ -33,8 +35,35 @@
 .moto{
 
 	font-size: 22rpx;
-	font-family: MicoSoft Yahei;
 	font-weight: bold;
+	line-height: 80rpx;
+	color: #405f80;
 
 }
+
+.moto-container{
+
+    border: 1px solid #405f80;
+	width: 200rpx;
+	height: 80rpx;
+	
+	/* 圆角矩形 */
+	border-radius: 5px;
+	
+	/* 文字水平垂直居中 */
+	text-align: center;
+
+	margin-top: 200rpx;
+
+}
+
+/* view外面包裹着一层page节点,我们通过,控制page高度调控整个页面的高度 */
+
+page{
+
+   background-color: #a5e7f8;
+   height: 100%;
+
+}
+
 
