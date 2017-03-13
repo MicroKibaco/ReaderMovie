@@ -3,7 +3,7 @@
 <view>
 
 <!--swiper只可放置<swiper-item/>组件，否则会导致未定义的行为,宽高自动适应至100%-->
-   <swiper  indicator-dots="true" autoplay="true" interval="5000">
+   <swiper vertical="{{false}}"  indicator-dots="true" autoplay="true" interval="5000">
 
     <swiper-item>
 	  <image mode="aspectFill"   src="/images/china-great-wall.jpg"></image>
@@ -22,19 +22,19 @@
 <view class="post-container">
 
 	<view class="post-author-date">
-			<image class="post-author" src="/images/avatar/logo_fail.png"></image>
-			<text class="post-date">2016-01-30</text>
+			<image wx:if="{{image_condition}}" class="post-author" src="{{img.author_img}}"></image>
+			<text class="post-date">{{date}}</text>
 	</view>
 
-		<text class="post-title">اختبار اللغة العربية</text>
-		<image class="post-image" src="/images/post/arabic_pyramid.jpg"></image>
-		<text class="post-content">دفّة بالرّغم, وبالرغم وبالتحديد، مع جهة. مسارح يتمكن يتسنّى جهة ان, التي اتفاقية قد كان. فمرّ الوراء ان غير. شيء ما شمال أدوات بالجانب, لكل وشعار اتفاق بـ, بها الإنزال مواقعها في. أثره، الأوربيين تحت و, سقوط بالرغم الإتفاقية عن يبق, في هذا وجهان وإقامة مقاطعة.</text>
+		<text class="post-title">{{title}}</text>
+		<image class="post-image" src="{{img.post_img}}"></image>
+		<text class="post-content">{{content}}</text>
 	
 	<view class="post-like">
-		<image class="post-like-image" src="../../images/icon/chat.png"></image>
-		<text class="post-like-font">92</text>
+		<image  class="post-like-image" src="../../images/icon/chat.png"></image>
+		<text class="post-like-font">{{view_num}}</text>
 		<image class="post-like-image" src="../../images/icon/view.png"></image>
-		<text class="post-like-font">75</text>
+		<text class="post-like-font">{{collec_num}}</text>
 	</view>
 
 	</view>
