@@ -8,7 +8,7 @@
 	flex-direction: column;
 	/* 居中摆放 */
 	align-items: center;
-	
+	 
 
 
 }
