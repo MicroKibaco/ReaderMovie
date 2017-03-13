@@ -3,7 +3,7 @@
 <view>
 
 <!--swiper只可放置<swiper-item/>组件，否则会导致未定义的行为,宽高自动适应至100%-->
-   <swiper  indicator-dots="true" autoplay="true" interval="5000">
+   <swiper vertical="{{false}}"  indicator-dots="true" autoplay="true" interval="5000">
 
     <swiper-item>
 	  <image mode="aspectFill"   src="/images/china-great-wall.jpg"></image>
@@ -19,46 +19,27 @@
 
 </swiper>
 
-<view class="post-container">
 
-	<view class="post-author-date">
-			<image class="post-author" src="/images/avatar/logo_fail.png"></image>
-			<text class="post-date">2016-01-30</text>
-	</view>
-
-		<text class="post-title">اختبار اللغة العربية</text>
-		<image class="post-image" src="/images/post/arabic_pyramid.jpg"></image>
-		<text class="post-content">دفّة بالرّغم, وبالرغم وبالتحديد، مع جهة. مسارح يتمكن يتسنّى جهة ان, التي اتفاقية قد كان. فمرّ الوراء ان غير. شيء ما شمال أدوات بالجانب, لكل وشعار اتفاق بـ, بها الإنزال مواقعها في. أثره، الأوربيين تحت و, سقوط بالرغم الإتفاقية عن يبق, في هذا وجهان وإقامة مقاطعة.</text>
-	
-	<view class="post-like">
-		<image class="post-like-image" src="../../images/icon/chat.png"></image>
-		<text class="post-like-font">92</text>
-		<image class="post-like-image" src="../../images/icon/view.png"></image>
-		<text class="post-like-font">75</text>
-	</view>
-
-	</view>
-
-
-
+<block wx:for="{{post_key}}">
 	<view class="post-container">
 
-	<view class="post-author-date">
-			<image class="post-author" src="/images/avatar/weixin.png"></image>
-			<text class="post-date">2016-12-06</text>
-	</view>
+		<view class="post-author-date">
+				<image class="post-author" src="{{item.author_img}}"></image>
+				<text class="post-date">{{item.date}}</text>
+		</view>
 
-		<text class="post-title">亚信科技有限公司</text>
-		<image class="post-image" src="/images/post/national_park.jpg"></image>
-		<text class="post-content">亚信是在美国纳斯达克成功上市的第一家中国高科技企业（NASDAQ交易代码：ASIA）。总部设在北京，在成都、广州、上海、杭州、南京、福州、沈阳等地设有分支机构和研发中心，年收入逾30亿人民币...
-</text>
-	
-	<view class="post-like">
-		<image class="post-like-image" src="../../images/icon/chat.png"></image>
-		<text class="post-like-font">1102</text>
-		<image class="post-like-image" src="../../images/icon/view.png"></image>
-		<text class="post-like-font">886</text>
-	</view>
+			<text class="post-title">{{item.title}}</text>
+			<image class="post-image" src="{{item.post_img}}"></image>
+			<text class="post-content">{{item.content}}</text>
+		
+		<view class="post-like">
+			<image class="post-like-image" src="../../images/icon/chat.png"></image>
+			<text class="post-like-font">{{item.view_num}}</text>
+			<image class="post-like-image" src="../../images/icon/view.png"></image>
+			<text class="post-like-font">{{item.collec_num}}</text>
+		</view>
 
 	</view>
+</block>
+
 </view>

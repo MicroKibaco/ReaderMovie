@@ -36,7 +36,7 @@ Page({
                      post_img: "/images/post/national_park.jpg"
 
                  }
-             ];;;
+             ];
 
              this.setData({post_key: post_content});
 
