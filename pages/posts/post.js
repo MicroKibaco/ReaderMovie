@@ -8,7 +8,7 @@ Page({
              //而这个动作A总是在onLoad方法执行完毕之后执行的
          },
 
-         onLoad: function (options) {
+         onLoad: function () {
              // 页面初始化 options为页面跳转所带来的参数
 
              this.setData({post_key: postsData.postsList});

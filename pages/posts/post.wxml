@@ -1,5 +1,5 @@
 <!--滑动视图容器 swiper-->
-<import src="post-item/post-item-template.wxml"/>
+<import src="/pages/posts/post-item/post-item-template.wxml"/>
 
 <view>
 
@@ -23,9 +23,9 @@
 
 <block wx:for="{{post_key}}">
 
-<!--temple模板-->
+     <!--temple模板-->
 	<template is = "postItem" data="{{item}}"/>
-	
+
 </block>
 
 </view>
