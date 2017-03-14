@@ -10,7 +10,7 @@ Page({
 
              // 去掉两个页面的平行跳转
              wx.redirectTo({
-                               url: "../posts/post"
+                               url: "../posts/post",
                            })
          }
      });

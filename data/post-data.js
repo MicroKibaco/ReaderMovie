@@ -7,7 +7,8 @@ var post_database = [
         reading: "1025",
         collection: "996",
         avatar: "/images/avatar/weixin.png",
-        imgSrc: "/images/post/national_park.jpg"
+        imgSrc: "/images/post/national_park.jpg",
+        postId: 0
 
     },
     {
@@ -17,7 +18,8 @@ var post_database = [
         reading: "1997",
         collection: "1696",
         avatar: "/images/avatar/my_mobile_user_img.png",
-        imgSrc: "/images/post/math.jpg"
+        imgSrc: "/images/post/math.jpg",
+        postId: 1
 
     },
 
@@ -28,7 +30,8 @@ var post_database = [
         reading: "2311",
         collection: "1888",
         avatar: "/images/avatar/weibo.png",
-        imgSrc: "/images/post/shoes.jpg"
+        imgSrc: "/images/post/shoes.jpg",
+        postId: 2
 
     },
 
@@ -39,7 +42,8 @@ var post_database = [
         reading: "1111",
         collection: "952",
         avatar: "/images/avatar/weixinquan.png",
-        imgSrc: "/images/post/winter_day.jpg"
+        imgSrc: "/images/post/winter_day.jpg",
+        postId: 3
 
     },
 
@@ -50,9 +54,11 @@ var post_database = [
         reading: "240",
         collection: "352",
         avatar: "/images/avatar/short_msg.png",
-        imgSrc: "/images/post/starry_night.jpg"
+        imgSrc: "/images/post/starry_night.jpg",
+        postId: 4
 
     },
+
     {
         date: "2016-6-28",
         title: "亚信国际签约方和科技",
@@ -60,13 +66,14 @@ var post_database = [
         reading: "750",
         collection: "196",
         avatar: "/images/avatar/logo_fail.png",
-        imgSrc: "/images/post/arabic_pyramid.jpg"
+        imgSrc: "/images/post/arabic_pyramid.jpg",
+        postId: 5
 
-    },
+    }
 ];
 
 module.exports = {
 
     postsList: post_database
 
-};
+};;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
