@@ -2,14 +2,6 @@
 Page({
          data: {},
 
-         imagePath: "/images/...",
-
-         process: function () {
-
-             var data = "Nov 8 2016";
-
-         },
-
          onLoad: function (options) {
              // 页面初始化 options为页面跳转所带来的参数
 
@@ -36,21 +28,9 @@ Page({
                      post_img: "/images/post/national_park.jpg"
 
                  }
-             ];
+             ];;;
 
              this.setData({post_key: post_content});
 
-         },
-         onReady: function () {
-             // 页面渲染完成
-         },
-         onShow: function () {
-             // 页面显示
-         },
-         onHide: function () {
-             // 页面隐藏
-         },
-         onUnload: function () {
-             // 页面关闭
          }
      });
