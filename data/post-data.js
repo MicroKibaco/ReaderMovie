@@ -1,15 +1,4 @@
-var post_content = [
-
-    {
-        date: "2016-6-28",
-        title: "亚信国际签约方和科技",
-        content: "亚信国际与北京方和科技有限责任公司在北京签署合作协议，本次合作以方和科技旗下加加明护眼仪为切入点，探索传统制造商转型客户运营商之路。亚信国际CFO宋暾、方和科技CEO王苗代表双方出席签约仪式...",
-        reading: "750",
-        collection: "196",
-        avatar: "/images/avatar/logo_fail.png",
-        imgSrc: "/images/post/arabic_pyramid.jpg"
-
-    },
+var post_database = [
 
     {
         date: "2016-12-06",
@@ -55,7 +44,7 @@ var post_content = [
     },
 
     {
-        date: "2016-09-04",
+        date: "2016-07-04",
         title: "亚信数据与阿里、腾讯等共同发起“数据安全流通自律公约”",
         content: "由工业和信息化部指导，中国信息通信研究院主办的“2016大数据产业峰会”在北京国际会议中心顺利召开...",
         reading: "240",
@@ -63,5 +52,21 @@ var post_content = [
         avatar: "/images/avatar/short_msg.png",
         imgSrc: "/images/post/starry_night.jpg"
 
-    }
+    },
+    {
+        date: "2016-6-28",
+        title: "亚信国际签约方和科技",
+        content: "亚信国际与北京方和科技有限责任公司在北京签署合作协议，本次合作以方和科技旗下加加明护眼仪为切入点，探索传统制造商转型客户运营商之路。亚信国际CFO宋暾、方和科技CEO王苗代表双方出席签约仪式...",
+        reading: "750",
+        collection: "196",
+        avatar: "/images/avatar/logo_fail.png",
+        imgSrc: "/images/post/arabic_pyramid.jpg"
+
+    },
 ];
+
+module.exports = {
+
+    postsList: post_database
+
+};
