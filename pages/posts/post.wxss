@@ -12,18 +12,3 @@ swiper image{
 	height : 600rpx;
 
 }
-
-.post-container{
-
-    /* 弹性盒子布局*/
-	display: flex;
-	/* 布局方向*/
-	flex-direction: column;
-	margin-top: 20rpx;
-	margin-bottom: 40rpx;
-	background-color: #fff;
-	border-bottom: 1px solid #ededed;
-	border-top: 1px solid #ededed;
-	margin-left: 0rpx;
-
-}
