@@ -1,10 +1,9 @@
 <!--先静后动,先样式后数据-->
 <view class="container">
-<!--/images/post/shoes.jpg-->
 		<image class="head-image" src="{{postdata.imgSrc}}"></image>
         <image class="audio" src="/images/music/music-start.png"></image>
+	
 	<view class="author-date">
-	<!--/images/avatar/weibo.png-->
 	    <image class="avatar" src="{{postdata.avatar}}"></image>
 		<text class="author">{{postdata.author}}</text>
 		<text class="const-text">发表于</text>
@@ -14,11 +13,14 @@
 	<text class="title">{{postdata.title}}</text>
 
 	<view class="tool">
+
 		<view class="circle-img"> 
-			<image src="/images/icon/collection.png"></image>
-			<image class="share-img" src="/images/icon/share.png"></image>
+			<image catchtap = "onCollectionTap" src="/images/icon/collection.png"></image>
+			<image catchtap = "onShareTap" class="share-img" src="/images/icon/share.png"></image>
 		</view>
+
 		<view class="horizontal"></view>
+		
 	</view>
 
 
