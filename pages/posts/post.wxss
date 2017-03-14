@@ -19,7 +19,7 @@ swiper image{
 	flex-direction: column;
 	margin-top: 20rpx;
 	margin-bottom: 40rpx;
-	background-color: "#fff";
+	background-color: #fff;
 	border-bottom: 1px solid #ededed;
 	border-top: 1px solid #ededed;
 	margin-left: 0rpx;

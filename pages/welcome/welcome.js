@@ -5,7 +5,7 @@ Page({
          onTap: function () {
              //页面跳转
              // wx.navigateTo({
-             //   url:"../posts/post"
+             // url: "../posts/post"
              // });
 
              // 去掉两个页面的平行跳转
@@ -34,4 +34,4 @@ Page({
     // 页面关闭
       console.log("Weclome page is onUnload");
   }
-     });;
+     });
