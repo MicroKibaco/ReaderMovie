@@ -1,1 +1,25 @@
-<text>这是文章详情页面</text>
+<!--先静后动,先样式后数据-->
+<view class="container">
+		<image class="head-image" src="/images/post/shoes.jpg"></image>
+
+	<view class="author-date">
+	    <image class="avatar" src="/images/avatar/weibo.png"></image>
+		<text class="author">胡歌</text>
+		<text class="const-text">发表于</text>
+		<text class="date">三天前</text>
+	</view>
+
+	<text class="title">你真的喜欢我吗?</text>
+
+	<view class="tool">
+		<view class="circle-img"> 
+			<image src="/images/icon/collection.png"></image>
+			<image class="share-img" src="/images/icon/share.png"></image>
+		</view>
+		<view class="horizontal"></view>
+	</view>
+
+
+	<text class="detail">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈fd哈</text>
+	
+</view>
