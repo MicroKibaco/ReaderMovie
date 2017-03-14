@@ -105,10 +105,14 @@
 .audio{
 	width: 102rpx;
 	height: 110rpx;
+
+	/* 使用绝对定位,脱离文档流 */
 	position: absolute;
 	left: 50%;
 	margin-left: -51rpx;
 	top: 180rpx;
+
+	/* 设置透明度 */
 	opacity: 0.6;
 }
 

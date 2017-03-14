@@ -1,10 +1,15 @@
+var postsData = require('../../../data/post-data.js');
+
+
 Page({
          data: {},
 
-         onLoad: function (options) {
+         onLoad: function (option) {
 
-             var postId = options.id;
-             console.log("postId: " + postId);
+             var postId = option.id;
+             var postdata = postsData.postsList[postId];
+             this.setData({postdata: postdata});
+             //   this.data.postdata = postdata; 在onLoad同步方法里面可以这样用
          },
 
          onShow: function () {

@@ -1,15 +1,17 @@
 <!--先静后动,先样式后数据-->
 <view class="container">
-		<image class="head-image" src="/images/post/shoes.jpg"></image>
+<!--/images/post/shoes.jpg-->
+		<image class="head-image" src="{{postdata.imgSrc}}"></image>
         <image class="audio" src="/images/music/music-start.png"></image>
 	<view class="author-date">
-	    <image class="avatar" src="/images/avatar/weibo.png"></image>
-		<text class="author">胡歌</text>
+	<!--/images/avatar/weibo.png-->
+	    <image class="avatar" src="{{postdata.avatar}}"></image>
+		<text class="author">{{postdata.author}}</text>
 		<text class="const-text">发表于</text>
-		<text class="date">三天前</text>
+		<text class="date">{{postdata.dateTime}}</text>
 	</view>
 
-	<text class="title">你真的喜欢我吗?</text>
+	<text class="title">{{postdata.title}}</text>
 
 	<view class="tool">
 		<view class="circle-img"> 
@@ -20,6 +22,6 @@
 	</view>
 
 
-	<text class="detail">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈fd哈</text>
+	<text class="detail">{{postdata.detail}}</text>
 	
 </view>
