@@ -2,7 +2,9 @@ var postsData = require('../../../data/post-data.js');
 
 
 Page({
-         data: {},
+         data: {
+             isPlayingMusic: false
+         },
 
          onLoad: function (option) {
 
@@ -71,11 +73,29 @@ Page({
 
          onMusicTap: function (event) {
 
-             wx.playBackgroundAudio({
+             var isPlayingMusic = this.data.isPlayingMusic;
+
+             if (isPlayingMusic) {
+
+                 wx.pauseBackgroundAudio();
+
+                 this.setData({
+                                  isPlayingMusic: false
+                              });
+
+             } else {
+
+                 wx.playBackgroundAudio({
                                         dataUrl: 'http://ws.stream.qqmusic.qq.com/C100003507bR0gDKBm.m4a?fromtag=38',
                                         title: "夜夜夜夜-齐秦",
                                         coverImgUrl: "http://y.gtimg.cn/music/photo_new/T002R150x150M000001TEc6V0kjpVC.jpg?max_age=2592000"
                                     });
+
+                 this.setData({
+                                  isPlayingMusic: true
+                              });
+
+             }
 
          },
 
