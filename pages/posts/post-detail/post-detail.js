@@ -12,9 +12,9 @@ Page({
              //   小程序暂且不支持webview
              //   this.data.postdata = postdata; 在onLoad同步方法里面可以这样用
 
-             //wx.setStorageSync('String',"小木箱");
+             // wx.setStorageSync('String',"小木箱");
 
-             //修改缓存
+             // 修改缓存
              wx.setStorageSync('key', {
                  game: "Android开发",
                  developer: "杨正友"
@@ -29,6 +29,7 @@ Page({
 
          },
 
+         // 缓存上限不能超过10M
          onShareTap: function (event) {
 
              wx.removeStorageSyncs('key');

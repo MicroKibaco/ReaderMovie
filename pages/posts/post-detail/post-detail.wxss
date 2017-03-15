@@ -13,7 +13,22 @@
 
 }
 
+.audio{
+	width: 102rpx;
+	height: 110rpx;
+
+	/* 使用绝对定位,脱离文档流 */
+	position: absolute;
+	left: 50%;
+	margin-left: -51rpx;
+	top: 180rpx;
+
+	/* 设置透明度 */
+	opacity: 0.6;
+}
+
 .author-date{
+	/* 左对齐 */
     flex-direction: row;
 	margin-left: 30rpx;
 	margin-top: 20rpx;
@@ -22,6 +37,7 @@
 .avatar{
 	height: 64rpx;
 	width: 64rpx;
+	/*父元素中线对齐 垂直水平居中*/
 	vertical-align: middle;
 }
 
@@ -41,6 +57,14 @@
 
 }
 
+.date{
+
+	font-size: 24rpx;
+	margin-left: 30rpx;
+	vertical-align: middle;
+	color: #999;
+}
+
 .title{
  
   margin-left: 40rpx;
@@ -52,13 +76,7 @@
 
 }
 
-.date{
 
-	font-size: 24rpx;
-	margin-left: 30rpx;
-	vertical-align: middle;
-	color: #999;
-}
 
 .tool{
 	margin-top: 20rpx;
@@ -67,7 +85,7 @@
 .circle-img{
 
 	float: right;
-	margin-left: 40rpx;
+	margin-right: 40rpx;
 	vertical-align: middle;
 
 }
@@ -94,25 +112,11 @@
 
 .detail{
   color: #666;
-  margin-left: 30rpx;
-  margin-top: 20rpx;
-  margin-right: 30rpx;
+  margin: 20rpx 30rpx 0 30rpx;
   line-height: 44rpx;
   letter-spacing: 2px;
   
 }
 
-.audio{
-	width: 102rpx;
-	height: 110rpx;
 
-	/* 使用绝对定位,脱离文档流 */
-	position: absolute;
-	left: 50%;
-	margin-left: -51rpx;
-	top: 180rpx;
-
-	/* 设置透明度 */
-	opacity: 0.6;
-}
 
