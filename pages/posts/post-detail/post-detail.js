@@ -61,6 +61,16 @@ Page({
 
          onCollectionTap: function (event) {
 
+             //同步方法:
+             //this.getpostsCollectedSyc();
+
+             //异步方法:
+             this.getpostsCollectedAsy();
+
+         },
+
+         getpostsCollectedSyc: function () {
+                
              var postsCollected = wx.getStorageSync("posts_collected");
              var postCollected = postsCollected[this.data.currentPostId];
 
@@ -70,6 +80,24 @@ Page({
 
              this.showToast(postsCollected, postCollected);
 
+         },
+
+         getpostsCollectedAsy: function () {
+
+             var that = this;
+             wx.getStorage({
+                               key: "posts_collected",
+                               success: function (res) {
+                                   var postsCollected = res.data;
+                                   var postCollected = postsCollected[that.data.currentPostId];
+
+                                   //收藏变为未收藏
+                                   postCollected = !postCollected;
+                                   postsCollected[that.data.currentPostId] = postCollected;
+
+                                   that.showToast(postsCollected, postCollected);
+                               }
+                           });
          },
 
          showToast: function (postsCollected, postCollected) {
