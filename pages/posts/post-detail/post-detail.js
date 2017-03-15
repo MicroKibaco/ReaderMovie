@@ -32,6 +32,30 @@ Page({
          // 缓存上限不能超过10M
          onShareTap: function (event) {
 
+             var itemList = [
+                 "分享给微信好友",
+                 "分享到朋友圈",
+                 "分享给联系人",
+                 "分享到QQ",
+                 "分享到QQ空间",
+                 "分享到微博"];
+
+             wx.showActionSheet({
+                                    itemList: itemList,
+
+                                    itemColor: "#405f80",
+
+                                    success: function (res) {
+                                        // res.cancel 用户是不是点击了取消按钮
+                                        // 数组元素的序号,从0开始
+                                        wx.showModal({
+                                                         title: "用户 " + itemList[res.tapIndex],
+                                                         content: "用户是否取消? " + res.cancel
+                                                                  + "现在还无法实现分享功能,什么时候能实现呢?"
+                                                     });
+
+                                    }
+                                });
 
          },
 

@@ -2,10 +2,10 @@
 
     <image class="user-avatar" src="/images/loading_anim.gif"></image>
     
-    <text class="user-name">Hello,Weclome to aiReader !</text>
+    <text class="user-name">Hello, 小木箱 !</text>
 
     <view class="moto-container" bindtap="onTap">
-        <text class="moto">开启亚信文化之旅</text>
+        <text class="moto">开启aiReader</text>
     </view>
 
 </view>
