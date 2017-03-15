@@ -95,6 +95,8 @@ Page({
                                             coverImgUrl: postData.music.coverImg
                                     });
 
+                 console.log("当前音乐背景图片 " + postData.music.coverImg);
+
                  this.setData({
                                   isPlayingMusic: true
                               });

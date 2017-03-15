@@ -1,6 +1,6 @@
 <!--先静后动,先样式后数据-->
 <view class="container">
-		<image class="head-image" src="{{postdata.imgSrc}}"></image>
+		<image class="head-image" src="{{isPlayingMusic ? postdata.music.coverImg : postdata.imgSrc}}"></image>
         <image catchtap="onMusicTap" class="audio" src="{{isPlayingMusic  ? '/images/music/music-stop.png' : '/images/music/music-start.png'}}"></image>
 	
 	<view class="author-date">
