@@ -32,6 +32,7 @@ Page({
          // 缓存上限不能超过10M
          onShareTap: function (event) {
 
+
          },
 
          onCollectionTap: function (event) {
@@ -44,7 +45,7 @@ Page({
              postsCollected[this.data.currentPostId] = postCollected;
 
              //设置缓存
-             wx.setStorageSync("posts_collected", postsCollected);
+             wx.setStorageSyncset("posts_collected", postsCollected);
 
              //绑定数据
              this.setData({
