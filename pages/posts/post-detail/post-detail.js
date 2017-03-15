@@ -62,10 +62,10 @@ Page({
          onCollectionTap: function (event) {
 
              //同步方法:
-             //this.getpostsCollectedSyc();
+             this.getpostsCollectedSyc();
 
              //异步方法:
-             this.getpostsCollectedAsy();
+             //this.getpostsCollectedAsy();
 
          },
 
