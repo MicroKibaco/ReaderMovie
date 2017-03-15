@@ -45,11 +45,11 @@ Page({
              postsCollected[this.data.currentPostId] = postCollected;
 
              //设置缓存
-             wx.setStorageSyncset("posts_collected", postsCollected);
+             wx.setStorageSync("posts_collected", postsCollected);
 
              //绑定数据
              this.setData({
-                              collected: postsCollected
+                              collected: postCollected
                           });
 
          },
