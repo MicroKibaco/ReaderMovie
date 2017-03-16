@@ -29,6 +29,22 @@ Page({
                  wx.setStorageSync("posts_collected", postsCollected);
 
              }
+
+             //  事件驱动
+             var that = this;
+             wx.onBackgroundAudioPlay(function () {
+
+                 that.setData({
+                                  isPlayingMusic: true
+                              });
+
+             });
+
+             wx.onBackgroundAudioPause(function () {
+                 that.setData({
+                                  isPlayingMusic: false
+                              });
+             });
          },
 
          // 缓存上限不能超过10M
@@ -73,6 +89,7 @@ Page({
 
          onMusicTap: function (event) {
 
+             //单次设置的数据不能超过1MB
              var isPlayingMusic = this.data.isPlayingMusic;
 
              var currentPostId = this.data.currentPostId;
