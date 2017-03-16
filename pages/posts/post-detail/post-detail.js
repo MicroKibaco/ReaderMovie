@@ -31,13 +31,29 @@ Page({
 
              }
 
-             //  事件驱动 数据绑定 单元测试
+             if (app.globalData.g_isPlayingMusic) {
+
+                 //this.data.isPlayingMusic = true;
+                 this.setData({
+                                  isPlayingMusic: true
+                              });
+
+             }
+
+             this.setMusicMontior();
+
+         },
+
+         //  事件驱动 数据绑定 单元测试
+         setMusicMontior: function () {
+
              var that = this;
              wx.onBackgroundAudioPlay(function () {
                  
                  that.setData({
                                   isPlayingMusic: true
                               });
+                 app.globalData.g_isPlayingMusic = true;
 
              });
 
@@ -45,7 +61,10 @@ Page({
                  that.setData({
                                   isPlayingMusic: false
                               });
+
+                 app.globalData.g_isPlayingMusic = false;
              });
+
          },
 
          // 缓存上限不能超过10M
