@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="真机微信没有提供清除缓存的入口,只能利用clearstroge(),给整个app添加一个控件清除缓存,因为小程序的缓存是持久化存储的">
+    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="template使用绝对路径">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/post-data.js" afterPath="$PROJECT_DIR$/data/post-data.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post-detail.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post-detail.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/posts/post-detail/post-detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5778">
+            <state relative-caret-position="5373">
               <caret line="214" column="8" lean-forward="false" selection-start-line="214" selection-start-column="8" selection-end-line="214" selection-end-column="8" />
               <folding />
             </state>
@@ -60,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post-data.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="post-data.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/post-data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1998">
+            <state relative-caret-position="-713">
               <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding />
             </state>
@@ -302,6 +303,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReaderMovie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReaderMovie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -422,14 +437,7 @@
       <workItem from="1489374090762" duration="2863000" />
       <workItem from="1489410567382" duration="10358000" />
       <workItem from="1489558835456" duration="5511000" />
-      <workItem from="1489585259676" duration="4496000" />
-    </task>
-    <task id="LOCAL-00002" summary="弹性盒子模型">
-      <created>1489319759759</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1489319759759</updated>
+      <workItem from="1489585259676" duration="5532000" />
     </task>
     <task id="LOCAL-00003" summary="app json的基础配置">
       <created>1489324622398</created>
@@ -767,17 +775,24 @@
       <option name="project" value="LOCAL" />
       <updated>1489650812004</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="template使用绝对路径">
+      <created>1489651064577</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1489651064577</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26106000" />
+    <option name="totallyTimeSpent" value="27142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11581921" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2930791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50218976" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -842,7 +857,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="将业务中的数据分离到单独的数据文件中,修改属性名称" />
     <MESSAGE value="使用require方法加载js模块文件" />
     <MESSAGE value="template 模板的使用" />
     <MESSAGE value="template 样式和标签的复用" />
@@ -867,7 +881,8 @@
     <MESSAGE value="完善音乐播放" />
     <MESSAGE value="音乐播放最终章节" />
     <MESSAGE value="真机微信没有提供清除缓存的入口,只能利用clearstroge(),给整个app添加一个控件清除缓存,因为小程序的缓存是持久化存储的" />
-    <option name="LAST_COMMIT_MESSAGE" value="真机微信没有提供清除缓存的入口,只能利用clearstroge(),给整个app添加一个控件清除缓存,因为小程序的缓存是持久化存储的" />
+    <MESSAGE value="template使用绝对路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="template使用绝对路径" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1095,14 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/post-data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1998">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/posts/post-detail/post-detail.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -1119,6 +1126,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/posts/post-detail/post-detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5373">
+          <caret line="214" column="8" lean-forward="false" selection-start-line="214" selection-start-column="8" selection-end-line="214" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/posts/post-detail/post-detail.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1127,10 +1142,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/posts/post-detail/post-detail.js">
+    <entry file="file://$PROJECT_DIR$/data/post-data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5778">
-          <caret line="214" column="8" lean-forward="false" selection-start-line="214" selection-start-column="8" selection-end-line="214" selection-end-column="8" />
+        <state relative-caret-position="-713">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
           <folding />
         </state>
       </provider>
