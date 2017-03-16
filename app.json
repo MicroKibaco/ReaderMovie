@@ -2,12 +2,33 @@
    "pages": [
      "pages/welcome/welcome",
      "pages/posts/post",
-     "pages/posts/post-detail/post-detail"
+     "pages/posts/post-detail/post-detail",
+     "pages/movies/movies"
 
    ],
-
   "window": {
     "navigationBarBackgroundColor": "#405f80"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/posts/post",
+        "text": "文章",
+        "iconPath": "/images/tab/yuedu_hl.png",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影",
+        "iconPath": "/images/tab/yuedu.png",
+        "selectedIconPath": ""
+      }
+    ],
+    "color": "",
+    "selectedColor": "",
+    "backgroundColor": ""
   }
+
+  
 } 
 
