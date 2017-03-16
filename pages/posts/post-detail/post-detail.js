@@ -1,5 +1,5 @@
 var postsData = require('../../../data/post-data.js');
-
+var app = getApp();
 
 Page({
          data: {
@@ -8,6 +8,7 @@ Page({
 
          onLoad: function (option) {
 
+             var globalData = app.globalData;
              var postId = option.id;
              this.data.currentPostId = postId;
              var postdata = postsData.postsList[postId];
@@ -30,10 +31,10 @@ Page({
 
              }
 
-             //  事件驱动
+             //  事件驱动 数据绑定 单元测试
              var that = this;
              wx.onBackgroundAudioPlay(function () {
-
+                 
                  that.setData({
                                   isPlayingMusic: true
                               });
