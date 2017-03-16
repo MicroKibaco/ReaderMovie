@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="音乐播放最终章节">
+    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="真机微信没有提供清除缓存的入口,只能利用clearstroge(),给整个app添加一个控件清除缓存,因为小程序的缓存是持久化存储的">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -422,14 +422,7 @@
       <workItem from="1489374090762" duration="2863000" />
       <workItem from="1489410567382" duration="10358000" />
       <workItem from="1489558835456" duration="5511000" />
-      <workItem from="1489585259676" duration="4223000" />
-    </task>
-    <task id="LOCAL-00001" summary="弹性盒子模型">
-      <created>1489317604762</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1489317604762</updated>
+      <workItem from="1489585259676" duration="4496000" />
     </task>
     <task id="LOCAL-00002" summary="弹性盒子模型">
       <created>1489319759759</created>
@@ -767,11 +760,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489650271434</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="真机微信没有提供清除缓存的入口,只能利用clearstroge(),给整个app添加一个控件清除缓存,因为小程序的缓存是持久化存储的">
+      <created>1489650812003</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1489650812004</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25833000" />
+    <option name="totallyTimeSpent" value="26106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
@@ -842,7 +842,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="删除臃肿代码" />
     <MESSAGE value="将业务中的数据分离到单独的数据文件中,修改属性名称" />
     <MESSAGE value="使用require方法加载js模块文件" />
     <MESSAGE value="template 模板的使用" />
@@ -867,7 +866,8 @@
     <MESSAGE value="应用程序的生命周期" />
     <MESSAGE value="完善音乐播放" />
     <MESSAGE value="音乐播放最终章节" />
-    <option name="LAST_COMMIT_MESSAGE" value="音乐播放最终章节" />
+    <MESSAGE value="真机微信没有提供清除缓存的入口,只能利用clearstroge(),给整个app添加一个控件清除缓存,因为小程序的缓存是持久化存储的" />
+    <option name="LAST_COMMIT_MESSAGE" value="真机微信没有提供清除缓存的入口,只能利用clearstroge(),给整个app添加一个控件清除缓存,因为小程序的缓存是持久化存储的" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
