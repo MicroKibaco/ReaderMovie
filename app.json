@@ -9,24 +9,33 @@
   "window": {
     "navigationBarBackgroundColor": "#405f80"
   },
+
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/posts/post",
         "text": "文章",
-        "iconPath": "/images/tab/yuedu_hl.png",
-        "selectedIconPath": ""
+        "iconPath": "/images/tab/yuedu.png",
+        "selectedIconPath": "/images/tab/yuedu_hl.png"
       },
       {
         "pagePath": "pages/movies/movies",
         "text": "电影",
-        "iconPath": "/images/tab/yuedu.png",
-        "selectedIconPath": ""
+        "iconPath": "/images/tab/dianying.png",
+        "selectedIconPath": "/images/tab/dianying_hl.png"
+      },
+      {
+        "pagePath": "pages/posts/post-detail/post-detail",
+        "text": "我的",
+        "iconPath": "/images/tab/ciwei.png",
+        "selectedIconPath": "/images/tab/ciwei_hl.png"
       }
     ],
-    "color": "",
-    "selectedColor": "",
-    "backgroundColor": ""
+    "color": "#666",
+    "selectedColor": "#405f80",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "position": "bottom"
   }
 
   
