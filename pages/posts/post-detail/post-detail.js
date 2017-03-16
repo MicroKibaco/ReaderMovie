@@ -31,7 +31,8 @@ Page({
 
              }
 
-             if (app.globalData.g_isPlayingMusic) {
+             if (app.globalData.g_isPlayingMusic &&
+                 app.globalData.g_currentMusicPostId === postId) {
 
                  //this.data.isPlayingMusic = true;
                  this.setData({
@@ -54,6 +55,7 @@ Page({
                                   isPlayingMusic: true
                               });
                  app.globalData.g_isPlayingMusic = true;
+                 app.globalData.g_currentMusicPostId = that.data.currentPostId;
 
              });
 
@@ -63,6 +65,8 @@ Page({
                               });
 
                  app.globalData.g_isPlayingMusic = false;
+                 app.globalData.g_currentMusicPostId = null;
+
              });
 
          },

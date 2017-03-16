@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="应用程序的生命周期">
+    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="完善音乐播放">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/posts/post-detail/post-detail.js" afterPath="$PROJECT_DIR$/pages/posts/post-detail/post-detail.js" />
@@ -45,8 +45,8 @@
       <file leaf-file-name="post-detail.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/posts/post-detail/post-detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="212" column="0" lean-forward="true" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+            <state relative-caret-position="394">
+              <caret line="214" column="8" lean-forward="false" selection-start-line="214" selection-start-column="8" selection-end-line="214" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -424,7 +424,7 @@
       <workItem from="1489374090762" duration="2863000" />
       <workItem from="1489410567382" duration="10358000" />
       <workItem from="1489558835456" duration="5511000" />
-      <workItem from="1489585259676" duration="3484000" />
+      <workItem from="1489585259676" duration="3805000" />
     </task>
     <task id="LOCAL-00001" summary="弹性盒子模型">
       <created>1489317604762</created>
@@ -755,11 +755,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489648374835</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="完善音乐播放">
+      <created>1489649297698</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1489649297698</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25094000" />
+    <option name="totallyTimeSpent" value="25415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
@@ -830,7 +837,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="引导页面和新闻列表页面的跳转,比较navigateTo和redirectTo执行的生命周期的方法" />
     <MESSAGE value="1.消除干扰日志&#10;2.更改布局配色问题&#10;3.去掉错误标点符号" />
     <MESSAGE value="删除臃肿代码" />
     <MESSAGE value="将业务中的数据分离到单独的数据文件中,修改属性名称" />
@@ -855,7 +861,8 @@
     <MESSAGE value="加入不同的音乐,个性化音乐播放" />
     <MESSAGE value="监听播放事件,完善音乐播放" />
     <MESSAGE value="应用程序的生命周期" />
-    <option name="LAST_COMMIT_MESSAGE" value="应用程序的生命周期" />
+    <MESSAGE value="完善音乐播放" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善音乐播放" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1117,8 +1124,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/posts/post-detail/post-detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="212" column="0" lean-forward="true" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+        <state relative-caret-position="394">
+          <caret line="214" column="8" lean-forward="false" selection-start-line="214" selection-start-column="8" selection-end-line="214" selection-end-column="8" />
           <folding />
         </state>
       </provider>
