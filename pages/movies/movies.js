@@ -7,4 +7,4 @@ Page({
          onLoad: function () {
 
          }
-     });;;;;;;;;;;;;;
+     });
