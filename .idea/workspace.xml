@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="template使用绝对路径">
+    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="点击轮播图实现跳转功能">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/post-data.js" afterPath="$PROJECT_DIR$/data/post-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/posts/post.js" afterPath="$PROJECT_DIR$/pages/posts/post.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/posts/post.wxml" afterPath="$PROJECT_DIR$/pages/posts/post.wxml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,7 +65,7 @@
       <file leaf-file-name="post-data.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/post-data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-713">
+            <state relative-caret-position="-459">
               <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding />
             </state>
@@ -153,9 +154,9 @@
         <option value="$PROJECT_DIR$/pages/posts/post.wxml" />
         <option value="$PROJECT_DIR$/requirejs.patch" />
         <option value="$PROJECT_DIR$/pages/posts/post.js" />
-        <option value="$PROJECT_DIR$/data/post-data.js" />
         <option value="$PROJECT_DIR$/pages/posts/post-detail/post-detail.wxml" />
         <option value="$PROJECT_DIR$/pages/posts/post-detail/post-detail.js" />
+        <option value="$PROJECT_DIR$/data/post-data.js" />
       </list>
     </option>
   </component>
@@ -437,14 +438,7 @@
       <workItem from="1489374090762" duration="2863000" />
       <workItem from="1489410567382" duration="10358000" />
       <workItem from="1489558835456" duration="5511000" />
-      <workItem from="1489585259676" duration="5532000" />
-    </task>
-    <task id="LOCAL-00003" summary="app json的基础配置">
-      <created>1489324622398</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1489324622398</updated>
+      <workItem from="1489585259676" duration="5995000" />
     </task>
     <task id="LOCAL-00004" summary="app json的基础配置">
       <created>1489324891435</created>
@@ -782,11 +776,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489651064577</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="点击轮播图实现跳转功能">
+      <created>1489654594194</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1489654594194</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27142000" />
+    <option name="totallyTimeSpent" value="27605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
@@ -857,7 +858,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="使用require方法加载js模块文件" />
     <MESSAGE value="template 模板的使用" />
     <MESSAGE value="template 样式和标签的复用" />
     <MESSAGE value="新闻列表结束" />
@@ -882,7 +882,8 @@
     <MESSAGE value="音乐播放最终章节" />
     <MESSAGE value="真机微信没有提供清除缓存的入口,只能利用clearstroge(),给整个app添加一个控件清除缓存,因为小程序的缓存是持久化存储的" />
     <MESSAGE value="template使用绝对路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="template使用绝对路径" />
+    <MESSAGE value="点击轮播图实现跳转功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="点击轮播图实现跳转功能" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1144,7 +1145,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/post-data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-713">
+        <state relative-caret-position="-459">
           <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
           <folding />
         </state>
