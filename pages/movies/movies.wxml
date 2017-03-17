@@ -3,15 +3,15 @@
 <view class="container">
 
 <view class="movies-templates">
-	<template  is="movieListTemplate"></template>
+	<template  is="movieListTemplate" data = "{{inTheaters}}"></template>
+</view>
+
+<view class="movies-templates" >
+	<template  is="movieListTemplate" data = "{{comingSoon}}"></template>
 </view>
 
 <view class="movies-templates">
-	<template  is="movieListTemplate"></template>
-</view>
-
-<view class="movies-templates">
-	<template  is="movieListTemplate"></template>
+	<template  is="movieListTemplate" data = "{{top250}}"></template>
 </view>
 	
 </view>
