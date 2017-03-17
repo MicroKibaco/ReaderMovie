@@ -51,7 +51,7 @@
 
 .inner-container {
 
-	margin: 0 auto 20 rpx;
+	margin: 0 auto 20rpx;
 
 }
 
