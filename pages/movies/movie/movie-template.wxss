@@ -4,19 +4,19 @@
 
 	display: flex;
 	flex-direction: column;
-	padding: 0 22 rpx;
+	padding: 0 22rpx;
 
 }
 
 .movie-img {
-	width: 200 rpx;
-	height: 270 rpx;
-	padding-bottom: 20 rpx;
+	width: 200rpx;
+	height: 270rpx;
+	padding-bottom: 20rpx;
 }
 
 .movie-title {
 
-	margin-bottom: 16 rpx;
-	font-size: 24 rpx;
+	margin-bottom: 16rpx;
+	font-size: 24rpx;
 
 } 

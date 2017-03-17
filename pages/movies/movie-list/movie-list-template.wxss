@@ -10,13 +10,13 @@
 
 .movie-head {
 
-	padding: 30 rpx 20 rpx 22 rpx;
+	padding: 30rpx 20rpx 22rpx;
 
 }
 
 .slogan {
 
-	font-size: 24 rpx;
+	font-size: 24rpx;
 
 }
 
@@ -29,15 +29,15 @@
 .more-text {
 
 	vertical-align: middle;
-	margin-right: 10 rpx;
+	margin-right: 10rpx;
 	color: #1f4ba5;
 
 }
 
 .more-img {
 
-	width: 9 rpx;
-	height: 16 rpx;
+	width: 9rpx;
+	height: 16rpx;
 	vertical-align: middle
 
 }
