@@ -1,1 +1,51 @@
 @import "../movie/movie-template.wxss";
+
+.movie-list-container {
+
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.movie-head {
+
+	padding: 30 rpx 20 rpx 22 rpx;
+
+}
+
+.slogan {
+
+	font-size: 24 rpx;
+
+}
+
+.more {
+
+	float: right;
+
+}
+
+.more-text {
+
+	vertical-align: middle;
+	margin-right: 10 rpx;
+	color: #1f4ba5;
+
+}
+
+.more-img {
+
+	width: 9 rpx;
+	height: 16 rpx;
+	vertical-align: middle
+
+}
+
+.movies-container {
+
+	display: flex;
+	flex-direction: row;
+
+}
+

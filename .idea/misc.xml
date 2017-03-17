@@ -30,7 +30,7 @@
     </option>
   </component>
   <component name="JavaScriptSettings">
-    <option name="languageLevel" value="JSX" />
+    <option name="languageLevel" value="ES6" />
   </component>
   <component name="masterDetails">
     <states>
