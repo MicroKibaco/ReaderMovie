@@ -49,3 +49,9 @@
 
 }
 
+.inner-container {
+
+	margin: 0 auto 20 rpx;
+
+}
+
