@@ -1,3 +1,5 @@
+var app = getApp();
+
 Page({
          data: {
              // 小程序总是会读取data对象作数据绑定,这个动作我们称之为动作A
@@ -5,10 +7,24 @@ Page({
          },
 
          onLoad: function () {
+
+
+             var inTheatersUrl = app.globalData.doubanBase + "/v2/movie/in_theaters";
+             var comingSoonUrl = app.globalData.doubanBase + "/v2/movie/coming_soon";
+             var top250Url = app.globalData.doubanBase + "/v2/movie/top250";
+
+             this.getMovieListData(inTheatersUrl);
+             this.getMovieListData(comingSoonUrl);
+             this.getMovieListData(top250Url);
+         },
+
+         getMovieListData:function(url){
+
+                
              wx.request({
 
-                            url: 'https://api.douban.com/v2/movie/top250',
-                            data: {},// 提交数据用
+                            url: url,
+                           // data: {},// 提交数据用
                             method: 'GET',// OPTIONS GET HEAD POST PUT DEFAULT TRACE CONNECT
                             header: { // 设置请求的header
                                 "Content-Type": "appication/json"
@@ -25,10 +41,8 @@ Page({
 
                             },
 
-                            complete: function () {
-
-                            }
 
                         });
+
          }
      });
