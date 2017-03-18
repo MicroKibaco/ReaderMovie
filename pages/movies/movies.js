@@ -1,4 +1,4 @@
-var util = require('../../utils/utils.js');;
+var util = require('../../utils/util.js');
 
 var app = getApp();
 
@@ -23,12 +23,12 @@ Page({
              var comingSoonUrl = app.globalData.doubanBase + "/v2/movie/coming_soon"+"?start=0&count=3";
              var top250Url = app.globalData.doubanBase + "/v2/movie/top250"+"?start=0&count=3";
 
-             this.getMovieListData(inTheatersUrl,"inTheaters");
-             this.getMovieListData(comingSoonUrl,"comingSoon");
-             this.getMovieListData(top250Url,"top250");
+             this.getMovieListData(inTheatersUrl,"inTheaters","正在热议");
+             this.getMovieListData(comingSoonUrl,"comingSoon","即将上映");
+             this.getMovieListData(top250Url,"top250","豆瓣Top250");
          },
 
-         getMovieListData:function(url,settedKey){
+         getMovieListData:function(url,settedKey,cagetoryTitle){
 
              var that = this;
              wx.request({
@@ -43,7 +43,7 @@ Page({
                             success: function (res) {
 
                                 console.log("数据返回成功: " + res);
-                                that.processDouBanData(res.data,settedKey);
+                                that.processDouBanData(res.data,settedKey,cagetoryTitle);
 
                             },
 
@@ -58,7 +58,7 @@ Page({
 
          },
 
-                    processDouBanData : function(moviesDouban,settedKey){
+                    processDouBanData : function(moviesDouban,settedKey,cagetoryTitle){
 
                             var movies = [];
 
@@ -66,6 +66,7 @@ Page({
 
                                var subject = moviesDouban.subjects[idx];
                                var title = subject.title;
+                               var start = subject.rating.starts;
                                if(title.length >= 6){
 
 
@@ -77,7 +78,7 @@ Page({
                                var temp = {
 
                                 title:title,
-                                starts:util.covertToStarsArray(subject.rating.starts),
+                           //   starts:util.convertToStarsArray(start),
                                 average:subject.rating.average,
                                 coverageUrl:subject.images.large,
                                 movieId:subject.id,
@@ -92,7 +93,8 @@ Page({
 
                               var readyData = {};
                               readyData [settedKey] = {
-                                movies:movies
+                                movies:movies,
+                                cagetoryTitle:cagetoryTitle
                             };
                                this.setData(readyData);
                         

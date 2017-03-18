@@ -7,7 +7,7 @@
 
 			<view class="movie-head">
 
-			<text class="slogan">正在热映</text>
+			<text class="slogan">{{cagetoryTitle}}</text>
 
 			<view class="more">
 				<text class="more-text">更多</text>
