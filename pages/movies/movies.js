@@ -1,3 +1,5 @@
+//var util = require("../../utils/utils.js");
+
 var app = getApp();
 
 Page({
@@ -5,13 +7,13 @@ Page({
              // 小程序总是会读取data对象作数据绑定,这个动作我们称之为动作A
              // 而这个动作A总是在onLoad方法执行完毕之后执行的
 
-             data:{
-
                  inTheaters: {},
                  comingSoon: {},
                  top250: {}
 
-             }
+             // 异步处理,初始化赋值
+
+             
          },
 
          onLoad: function () {
@@ -74,15 +76,12 @@ Page({
 
                                var temp = {
 
-
-                                    title:title,
-                                    average:subject.rating.average,
-                                    coverageUrl:subject.images.large,
-                                    movieId:subject.id,
-
-
-
-
+                                title:title,
+                              //  starts:util.covertToStarsArray(subject.rating.starts),
+                                average:subject.rating.average,
+                                coverageUrl:subject.images.large,
+                                movieId:subject.id,
+                                    
                                };
 
 
@@ -92,7 +91,7 @@ Page({
                             }
 
                               var readyData = {};
-                            readyData [settedKey] = {
+                              readyData [settedKey] = {
                                 movies:movies
                             };
                                this.setData(readyData);
