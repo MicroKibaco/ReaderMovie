@@ -1,4 +1,4 @@
-//var util = require("../../utils/utils.js");
+var util = require('../../utils/utils.js');;
 
 var app = getApp();
 
@@ -77,7 +77,7 @@ Page({
                                var temp = {
 
                                 title:title,
-                              //  starts:util.covertToStarsArray(subject.rating.starts),
+                                starts:util.covertToStarsArray(subject.rating.starts),
                                 average:subject.rating.average,
                                 coverageUrl:subject.images.large,
                                 movieId:subject.id,

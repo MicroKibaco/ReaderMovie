@@ -25,6 +25,6 @@ function covertToStarsArray(stars){
 
 module.exports = {
 
-    convertToStarsArray: convertToStarsArray,
+    covertToStarsArray : covertToStarsArray,
 
 };
