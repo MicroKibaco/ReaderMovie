@@ -7,9 +7,9 @@ Page({
 
              data:{
 
-                 inTheaters : {},
-                 comingSoon : {},
-                 top250 : {}
+                 inTheaters: {},
+                 comingSoon: {},
+                 top250: {}
 
              }
          },
@@ -83,7 +83,7 @@ Page({
 
 
 
-                               };;;;
+                               };
 
 
                                movies.push(temp);
@@ -92,8 +92,10 @@ Page({
                             }
 
                               var readyData = {};
-                              readyData [settedKey] = movies;
-                              this.setData(readyData);
+                            readyData [settedKey] = {
+                                movies:movies
+                            };
+                               this.setData(readyData);
                         
                     }
      });

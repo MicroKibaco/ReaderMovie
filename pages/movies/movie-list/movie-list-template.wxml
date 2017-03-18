@@ -18,7 +18,7 @@
 
 		<view class="movies-container">
 
-		<block wx:for="{{inTheaters}}" wx:for-item="movie">
+		<block wx:for="{{movies}}" wx:for-item="movie">
 		<template is="movieTemplate" data="{{...movie}}"/>
 		</block>
 			<!--<template is="movieTemplate"/>

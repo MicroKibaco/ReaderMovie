@@ -54,6 +54,7 @@
    font-size: 24rpx;
    color: #999;
    margin-left: 20rpx;
+   vertical-align: middle;
 
 }
 
