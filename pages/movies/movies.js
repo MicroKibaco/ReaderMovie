@@ -28,6 +28,19 @@ Page({
              this.getMovieListData(top250Url,"top250","豆瓣Top250");
          },
 
+         onMoreTap:function(event){
+
+            var cagetory = event.currentTarget.dataset.category;
+             wx.navigateTo(
+
+                {
+                    url:"more-movie/more-movie?cagetory="+cagetory,
+                }
+
+             );
+
+         },
+
          getMovieListData:function(url,settedKey,cagetoryTitle){
 
              var that = this;

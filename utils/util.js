@@ -64,18 +64,16 @@ function convertToCastString(casts) {
 
 function convertToCastInfos(casts) {
 
-  var castsArray = [];;;;;;
-
-  for (var idx in casts) {
+  var castsArray = [];
+    for (var idx in casts) {
 
     var cast = {
 
       img: casts[idx].avatars ? casts[idx].avatars.large : "",
       name: casts[idx].name
 
-    };;;;;;
-
-    castsArray.push(cast);
+    };
+      castsArray.push(cast);
 
   }
   
@@ -92,4 +90,4 @@ module.exports = {
 
   convertToCastInfos:convertToCastInfos
 
-};;;;;;
+};
