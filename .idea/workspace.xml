@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="更多页面编写思路与电影类型获取">
+    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="更多页面加载数据">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.js" afterPath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movies.js" afterPath="$PROJECT_DIR$/pages/movies/movies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxml" afterPath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxss" afterPath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxml" afterPath="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxss" afterPath="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/util.js" afterPath="$PROJECT_DIR$/utils/util.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -79,7 +82,7 @@
             <state relative-caret-position="-1998">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1489914109000" expanded="true" signature="1474:1623" ph="{&quot;convertToStarsArray&quot;: convertToStarsArray...}" />
+                <marker date="1489915107000" expanded="true" signature="1397:1546" ph="{&quot;convertToStarsArray&quot;: convertToStarsArray...}" />
               </folding>
             </state>
           </provider>
@@ -127,8 +130,8 @@
       <file leaf-file-name="more-movie.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="1296">
+              <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -540,14 +543,7 @@
       <workItem from="1489749526717" duration="332000" />
       <workItem from="1489751831628" duration="2388000" />
       <workItem from="1489766492640" duration="3523000" />
-      <workItem from="1489828208382" duration="2689000" />
-    </task>
-    <task id="LOCAL-00026" summary="从文章列表跳转到新闻详情页面">
-      <created>1489481497144</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1489481497144</updated>
+      <workItem from="1489828208382" duration="3390000" />
     </task>
     <task id="LOCAL-00027" summary="先静后动,构建新闻详情页面">
       <created>1489489865059</created>
@@ -885,11 +881,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489910217322</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="更多页面加载数据">
+      <created>1489914428265</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1489914428265</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44655000" />
+    <option name="totallyTimeSpent" value="45356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
@@ -960,7 +963,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="监听播放事件,完善音乐播放" />
     <MESSAGE value="应用程序的生命周期" />
     <MESSAGE value="完善音乐播放" />
     <MESSAGE value="音乐播放最终章节" />
@@ -985,7 +987,8 @@
     <MESSAGE value="编制小星星" />
     <MESSAGE value="更多页面编写思路与电影类型获取" />
     <MESSAGE value="动态设置导航栏标题" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态设置导航栏标题" />
+    <MESSAGE value="更多页面加载数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="更多页面加载数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1248,7 +1251,7 @@
         <state relative-caret-position="-1998">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489914109000" expanded="true" signature="1474:1623" ph="{&quot;convertToStarsArray&quot;: convertToStarsArray...}" />
+            <marker date="1489915107000" expanded="true" signature="1397:1546" ph="{&quot;convertToStarsArray&quot;: convertToStarsArray...}" />
           </folding>
         </state>
       </provider>
@@ -1309,8 +1312,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="1296">
+          <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
           <folding />
         </state>
       </provider>

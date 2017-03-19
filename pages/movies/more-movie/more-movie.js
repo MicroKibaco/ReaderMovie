@@ -5,7 +5,7 @@ var app = getApp();
 Page({
   data:{
 
-   // movies:{},
+    movies:{},
     navigationbartitle:"",
 
   },
@@ -99,4 +99,4 @@ Page({
   },
 
 
-);;;;;
+);
