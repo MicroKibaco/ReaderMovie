@@ -1,5 +1,8 @@
 @import "../movie/movie-template.wxss";
 
+
+/* flex对scollview是无效的 */
+
 .single-view-container{
 
      float:  left;
@@ -10,6 +13,7 @@
 
 .grid-container{
 
+   height: 1300rpx;
    margin: 40rpx 0 40rpx 6rpx;
 	
 }

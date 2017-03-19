@@ -7,6 +7,9 @@ Page({
 
     movies:{},
     navigationbartitle:"",
+    requestUrl: "",
+    totalCount: 0,
+    isEmpty: true
 
   },
 
@@ -50,8 +53,18 @@ Page({
 
    }
 
+        this.data.requestUrl = dataUrl;
         util.http(dataUrl,this.processDouBanData);
    
+  },
+
+    OnScrolltolower:function(event){
+
+      var nextUrl = this.data.requestUrl + "?start=" + this.data.totalCount + "&count=20";
+      
+      util.http(nextUrl,this.processDouBanData);
+      console.log("加载更多...");
+
   },
 
     processDouBanData: function(moviesDouban){
@@ -73,6 +86,7 @@ Page({
 
                                }
 
+                              // [1,1,1,0,0] [1,1,1,1,1]
                                var temp = {
 
                                 title:title,
@@ -88,10 +102,28 @@ Page({
                             
 
                             }
+
+                            var totalMovies = {};;;
+
+                           
                       
+                            if(!this.data.isEmpty){
+
+                              totalMovies = this.data.movies.concat(movies);
+
+                            }else {
+
+                              totalMovies = movies;
+                              this.data.isEmpty = false;
+
+                            }
+
+
                              this.setData({
-                                  movies:movies
+                                  movies:totalMovies
                              });
+
+                              this.data.totalCount += 20;
                         
                     }
 
