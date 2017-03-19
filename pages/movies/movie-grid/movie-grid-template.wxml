@@ -3,11 +3,10 @@
 <template name="movieGridTemplate">
 
 	<block wx:for="{{movies}}" wx:for-item="movie">
-
 		
+		<view class="single-view-container">
 			<template is="movieTemplate" data="{{...movie}}" />
-		
-
+		</view>		
 
 	</block>
 </template>
