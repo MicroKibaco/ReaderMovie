@@ -69,6 +69,16 @@ Page({
 
   },
 
+   onPullDownRefresh: function(event) {
+
+      var refreshUrl = this.data.requestUrl + "?start=0&count=20";
+      this.data.movies = {};
+      this.data.isEmpty = true;
+      util.http(refreshUrl,this.processDouBanData);
+      wx.showNavigationBarLoading();
+
+   },
+
     processDouBanData: function(moviesDouban){
     
                         console.log("processDouBanData: "+moviesDouban);
@@ -124,6 +134,7 @@ Page({
                                   movies:totalMovies
                              });
                               wx.hideNavigationBarLoading();
+                              wx.stopPullDownRefresh();
                               this.data.totalCount += 20;
                         
                     }
