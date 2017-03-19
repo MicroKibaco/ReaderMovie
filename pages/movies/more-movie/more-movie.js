@@ -63,6 +63,8 @@ Page({
       var nextUrl = this.data.requestUrl + "?start=" + this.data.totalCount + "&count=20";
       
       util.http(nextUrl,this.processDouBanData);
+
+      wx.showNavigationBarLoading();
       console.log("加载更多...");
 
   },
@@ -103,9 +105,8 @@ Page({
 
                             }
 
-                            var totalMovies = {};;;
-
-                           
+        var totalMovies = {};
+        // 如果要绑定新加载的数据,那么就得和旧的数据加载在一起
                       
                             if(!this.data.isEmpty){
 
@@ -122,7 +123,7 @@ Page({
                              this.setData({
                                   movies:totalMovies
                              });
-
+                              wx.hideNavigationBarLoading();
                               this.data.totalCount += 20;
                         
                     }

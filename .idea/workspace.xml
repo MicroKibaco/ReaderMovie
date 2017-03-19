@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="实现movie - grid - template九宫格排布">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxml" afterPath="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxss" afterPath="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.js" afterPath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -126,8 +125,8 @@
       <file leaf-file-name="more-movie.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-560">
-              <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="513">
+              <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -539,21 +538,7 @@
       <workItem from="1489749526717" duration="332000" />
       <workItem from="1489751831628" duration="2388000" />
       <workItem from="1489766492640" duration="3523000" />
-      <workItem from="1489828208382" duration="4310000" />
-    </task>
-    <task id="LOCAL-00029" summary="配置全局导航栏颜色">
-      <created>1489491793504</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1489491793504</updated>
-    </task>
-    <task id="LOCAL-00030" summary="使用数据填充新闻详情页面">
-      <created>1489492924599</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1489492924599</updated>
+      <workItem from="1489828208382" duration="4970000" />
     </task>
     <task id="LOCAL-00031" summary="使用数据填充新闻详情页面">
       <created>1489499505398</created>
@@ -884,11 +869,25 @@
       <option name="project" value="LOCAL" />
       <updated>1489928026761</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="实现movie - grid - template九宫格排布">
+      <created>1489928709640</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1489928709640</updated>
+    </task>
+    <task id="LOCAL-00079" summary="实现下滑加载更多">
+      <created>1489930860763</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1489930860764</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46276000" />
+    <option name="totallyTimeSpent" value="46936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
@@ -959,7 +958,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="音乐播放最终章节" />
     <MESSAGE value="真机微信没有提供清除缓存的入口,只能利用clearstroge(),给整个app添加一个控件清除缓存,因为小程序的缓存是持久化存储的" />
     <MESSAGE value="template使用绝对路径" />
     <MESSAGE value="点击轮播图实现跳转功能" />
@@ -984,7 +982,8 @@
     <MESSAGE value="更多页面加载数据" />
     <MESSAGE value="实现movie - grid - template" />
     <MESSAGE value="实现movie - grid - template九宫格排布" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现movie - grid - template九宫格排布" />
+    <MESSAGE value="实现下滑加载更多" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现下滑加载更多" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1308,8 +1307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-560">
-          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="513">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding />
         </state>
       </provider>
