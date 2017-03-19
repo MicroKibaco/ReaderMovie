@@ -66,7 +66,7 @@ Page({
 
                                var subject = moviesDouban.subjects[idx];
                                var title = subject.title;
-                               var start = subject.rating.starts;
+                               var star = subject.rating.stars;
                                if(title.length >= 6){
 
 
@@ -78,7 +78,7 @@ Page({
                                var temp = {
 
                                 title:title,
-                           //   starts:util.convertToStarsArray(start),
+                                stars:util.convertToStarsArray(star),
                                 average:subject.rating.average,
                                 coverageUrl:subject.images.large,
                                 movieId:subject.id,
