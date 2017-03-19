@@ -26,29 +26,6 @@ function convertToStarsArray(stars) {
 }
 
 
-function http(url, callBack) {
-
-  wx.request({
-
-    url: url,
-    method: 'GET',
-    header: {
-      "Content-Type": "json"
-    },
-
-    success: function (res) {
-
-      callBack(res.data);
-
-    },
-    fail: function (error) {
-
-      console.log(error)
-
-    }
-
-  })
-}
 
 function convertToCastString(casts) {
 
@@ -61,6 +38,37 @@ function convertToCastString(casts) {
   return castsjoin.substring(0, castsjoin.length - 2);
 
 }
+
+ function http(url,callBack){
+
+             wx.request({
+
+                            url: url,
+                            method: 'GET',
+                            header: { // 设置请求的header
+                                "Content-Type": "json"
+                            },
+
+                            // errMsg: "request:ok", data: Object, statusCode: 400
+
+                            success: function (res) {
+
+                                console.log("成功回调: "+res.data);
+                                callBack(res.data);
+                                
+
+                            },
+
+                            fail: function (error) {
+
+
+                            },
+
+
+                        });
+
+}
+
 
 function convertToCastInfos(casts) {
 
@@ -79,6 +87,9 @@ function convertToCastInfos(casts) {
   
   return castsArray;
 }
+
+
+
 
 module.exports = {
 
