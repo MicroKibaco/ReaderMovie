@@ -69,6 +69,17 @@ Page({
 
              });
 
+                // 设置音乐为未播放的状态
+                 wx.onBackgroundAudioStop(function () {
+                 that.setData({
+                                  isPlayingMusic: false
+                              });
+
+                 app.globalData.g_isPlayingMusic = false;
+                 app.globalData.g_currentMusicPostId = null;
+
+             });             
+
          },
 
          // 缓存上限不能超过10M
