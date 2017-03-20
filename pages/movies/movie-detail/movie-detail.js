@@ -2,7 +2,9 @@ var util = require('../../../utils/util.js');
 var app = getApp();
 
 Page({
-  data:{},
+  data:{
+      movie:{}
+  },
   onLoad:function(options){
 
       var movieId = options.id;
@@ -14,7 +16,54 @@ Page({
 
   processDoubanData:function(data){
 
-      console.log(data);
+      var director = {
+
+          avatars: "",
+          id: "",
+          name: ""
+
+      };
+
+
+      if(data.directors[0] != null){
+
+          if(data.directors[0].avatars != null) {
+
+                director.avatars = data.directors[0].avatars.large;
+
+          }
+
+            director.id = data.directors[0].id;
+            director.name = data.directors[0].name;
+
+      }
+
+      var movie = {
+
+        movieImg: data.images ? data.images.large:"",
+        country: data.countries[0],
+        title:data.title,
+        originalTitle:data.original_title,
+        wishCount:data.wish_count,
+        commentsCount:data.comments_count,
+        year:data.year,
+        genres:data.genres.join(", "),
+        stars:util.convertToStarsArray(data.rating.stars),
+        score: data.rating.average,
+        director:director,
+        casts:util.convertToCastInfos(data.casts),
+        castsInfo:util.convertToCastInfos(data.casts),
+        summary:data.summary
+
+      };
+
+       console.log(movie);
+
+      this.setData({
+
+          movie:movie
+
+      });
 
   }
   
