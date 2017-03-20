@@ -9,7 +9,9 @@ Page({
 
                  inTheaters: {},
                  comingSoon: {},
-                 top250: {}
+                 top250: {},
+                 containerShow:true,
+                 searchPanelShow:false
 
              // 异步处理,初始化赋值
 
@@ -26,6 +28,28 @@ Page({
              this.getMovieListData(inTheatersUrl,"inTheaters","正在热映");
              this.getMovieListData(comingSoonUrl,"comingSoon","即将上映");
              this.getMovieListData(top250Url,"top250","豆瓣Top250");
+         },
+
+         onBindFocus:function(event){
+
+             this.setData({
+
+                 containerShow:false,
+                 searchPanelShow:true
+
+             });
+
+         },
+
+         onCancleImgTap:function(event){
+
+             this.setData({
+
+                 containerShow:true,
+                 searchPanelShow:false,
+                 
+             });
+
          },
 
          onMoreTap:function(event){

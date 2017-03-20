@@ -1,4 +1,5 @@
 <import src="movie-list/movie-list-template.wxml" />
+<import src="movie-grid/movie-grid-template.wxml" />
 
 <view class="search">
 	<icon type="search" class="search-img" size="13" color="#405f80"></icon>
@@ -7,10 +8,12 @@
 		placeholder-class="placeholder" 
 		bindchange = "onBindChange"
 		bindfocus="onBindFocus" />
+
+		<image wx:if="{{searchPanelShow}}" class="xx-img" src="/images/icon/xx.png" bindtap="onCancleImgTap"></image>
 	
 </view>
 
-<view class="container">
+<view class="container" wx:if="{{containerShow}}">
 
 <view class="movies-templates">
 	<template  is="movieListTemplate" data = "{{...inTheaters}}"></template>
@@ -24,4 +27,8 @@
 	<template  is="movieListTemplate" data = "{{...top250}}"></template>
 </view>
 	
+</view>
+
+<view class="search-pannel" wx:if="{{searchPanelShow}}">
+	<template  is="movieGridTemplate"/>
 </view>
