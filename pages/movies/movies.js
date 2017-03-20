@@ -81,6 +81,16 @@ Page({
 
          },
 
+         onMovieTap:function(event){
+
+             wx.navigateTo({
+
+                 url:"movie-detail/movie-detail",
+
+             });
+
+         },
+
          getMovieListData:function(url,settedKey,cagetoryTitle){
 
              var that = this;
