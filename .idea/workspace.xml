@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="修复音乐播放完成后图标未复位的bug">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.wxss" />
+    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="&quot;更多电影&quot;,&quot;电影详情&quot;页面之间的跳转">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.js" afterPath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movie/movie-template.wxml" afterPath="$PROJECT_DIR$/pages/movies/movie/movie-template.wxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movies.js" afterPath="$PROJECT_DIR$/pages/movies/movies.js" />
     </list>
@@ -50,10 +46,10 @@
       <file leaf-file-name="movies.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/movies/movies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="63" />
+            <state relative-caret-position="216">
+              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding>
-                <marker date="1490000603000" expanded="true" signature="4296:4326" ph="{&quot;movies&quot;: movies...}" />
+                <marker date="1490002118000" expanded="true" signature="4372:4402" ph="{&quot;movies&quot;: movies...}" />
               </folding>
             </state>
           </provider>
@@ -583,14 +579,7 @@
       <workItem from="1489749526717" duration="332000" />
       <workItem from="1489751831628" duration="2388000" />
       <workItem from="1489766492640" duration="3523000" />
-      <workItem from="1489828208382" duration="12773000" />
-    </task>
-    <task id="LOCAL-00038" summary="操作反馈:wx.ShowModle 查看API文档">
-      <created>1489562525427</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1489562525427</updated>
+      <workItem from="1489828208382" duration="13415000" />
     </task>
     <task id="LOCAL-00039" summary="交互反馈 wx.showActionSheet">
       <created>1489566730321</created>
@@ -928,17 +917,24 @@
       <option name="project" value="LOCAL" />
       <updated>1489999175744</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="&quot;更多电影&quot;,&quot;电影详情&quot;页面之间的跳转">
+      <created>1490000717604</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1490000717604</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54739000" />
+    <option name="totallyTimeSpent" value="55381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2549435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2549435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5007299" sideWeight="0.50329256" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5007299" sideWeight="0.49670744" order="1" side_tool="false" content_ui="tabs" />
@@ -1003,7 +999,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="三个嵌套template的使用" />
     <MESSAGE value="不规范的命名方式" />
     <MESSAGE value="movie template样式的实现" />
     <MESSAGE value="starts template样式的实现" />
@@ -1028,7 +1023,8 @@
     <MESSAGE value="搜索页面的构建下" />
     <MESSAGE value="tabbar的图片路径不要使用绝对路径" />
     <MESSAGE value="修复音乐播放完成后图标未复位的bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复音乐播放完成后图标未复位的bug" />
+    <MESSAGE value="&quot;更多电影&quot;,&quot;电影详情&quot;页面之间的跳转" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;更多电影&quot;,&quot;电影详情&quot;页面之间的跳转" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1352,10 +1348,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/movies/movies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="63" />
+        <state relative-caret-position="216">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
-            <marker date="1490000603000" expanded="true" signature="4296:4326" ph="{&quot;movies&quot;: movies...}" />
+            <marker date="1490002118000" expanded="true" signature="4372:4402" ph="{&quot;movies&quot;: movies...}" />
           </folding>
         </state>
       </provider>
