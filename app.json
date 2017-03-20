@@ -22,8 +22,8 @@
       {
         "pagePath": "pages/movies/movies",
         "text": "电影",
-        "iconPath": "/images/tab/dianying.png",
-        "selectedIconPath": "/images/tab/dianying_hl.png"
+        "iconPath": "images/tab/dianying.png",
+        "selectedIconPath": "images/tab/dianying_hl.png"
       }
     ],
     "color": "#666",
