@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="&quot;更多电影&quot;,&quot;电影详情&quot;页面之间的跳转">
+    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="-author by MicroKibaco">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.js" afterPath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movie/movie-template.wxml" afterPath="$PROJECT_DIR$/pages/movies/movie/movie-template.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movies.js" afterPath="$PROJECT_DIR$/pages/movies/movies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.wxml" afterPath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.wxss" afterPath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.wxss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,8 +46,8 @@
       <file leaf-file-name="movies.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/movies/movies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="-1539">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <marker date="1490002118000" expanded="true" signature="4372:4402" ph="{&quot;movies&quot;: movies...}" />
               </folding>
@@ -579,28 +579,7 @@
       <workItem from="1489749526717" duration="332000" />
       <workItem from="1489751831628" duration="2388000" />
       <workItem from="1489766492640" duration="3523000" />
-      <workItem from="1489828208382" duration="13415000" />
-    </task>
-    <task id="LOCAL-00039" summary="交互反馈 wx.showActionSheet">
-      <created>1489566730321</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1489566730321</updated>
-    </task>
-    <task id="LOCAL-00040" summary="同步方法和异步方法对比">
-      <created>1489569682520</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1489569682520</updated>
-    </task>
-    <task id="LOCAL-00041" summary="同步方法和异步方法对比">
-      <created>1489570021115</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1489570021115</updated>
+      <workItem from="1489828208382" duration="15124000" />
     </task>
     <task id="LOCAL-00042" summary="音乐播放的基本实现">
       <created>1489580734440</created>
@@ -924,11 +903,32 @@
       <option name="project" value="LOCAL" />
       <updated>1490000717604</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="&quot;电影详情&quot;页面得到&quot;更多电影&quot;的movieid">
+      <created>1490002257970</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1490002257970</updated>
+    </task>
+    <task id="LOCAL-00089" summary="编写电影详情页面(上)">
+      <created>1490008962567</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1490008962567</updated>
+    </task>
+    <task id="LOCAL-00090" summary="编写电影详情页面下">
+      <created>1490011734570</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1490011734570</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55381000" />
+    <option name="totallyTimeSpent" value="57090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
@@ -999,9 +999,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="不规范的命名方式" />
-    <MESSAGE value="movie template样式的实现" />
-    <MESSAGE value="starts template样式的实现" />
     <MESSAGE value="RESTful API简介及调用豆瓣API" />
     <MESSAGE value="获取正在热映、即将上映和Top250的数据" />
     <MESSAGE value="电影页面数据绑定" />
@@ -1024,7 +1021,11 @@
     <MESSAGE value="tabbar的图片路径不要使用绝对路径" />
     <MESSAGE value="修复音乐播放完成后图标未复位的bug" />
     <MESSAGE value="&quot;更多电影&quot;,&quot;电影详情&quot;页面之间的跳转" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;更多电影&quot;,&quot;电影详情&quot;页面之间的跳转" />
+    <MESSAGE value="&quot;电影详情&quot;页面得到&quot;更多电影&quot;的movieid" />
+    <MESSAGE value="编写电影详情页面(上)" />
+    <MESSAGE value="编写电影详情页面下" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写电影详情页面下" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1348,8 +1349,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/movies/movies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="-1539">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <marker date="1490002118000" expanded="true" signature="4372:4402" ph="{&quot;movies&quot;: movies...}" />
           </folding>

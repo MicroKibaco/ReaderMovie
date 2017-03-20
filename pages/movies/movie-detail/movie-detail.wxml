@@ -1,2 +1,6 @@
-<!--pages/movies/movie-detail/movie-detail.wxml-->
-<text>pages/movies/movie-detail/movie-detail.wxml</text>
+<view class="container">
+
+	<image class="head-img" src="{{movie.movieImg}}" mode="aspectFill"/>
+
+
+</view>

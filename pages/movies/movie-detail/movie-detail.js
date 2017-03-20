@@ -16,6 +16,12 @@ Page({
 
   processDoubanData:function(data){
 
+      if(!data){
+
+          return;
+
+      }
+
       var director = {
 
           avatars: "",
@@ -57,7 +63,6 @@ Page({
 
       };
 
-       console.log(movie);
 
       this.setData({
 
