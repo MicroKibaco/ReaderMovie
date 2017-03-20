@@ -55,14 +55,11 @@ Page({
 
                             success: function (res) {
 
-                                console.log("数据返回成功: " + res);
                                 that.processDouBanData(res.data,settedKey,cagetoryTitle);
 
                             },
 
                             fail: function (error) {
-
-                                console.log("数据返回失败: " + error);
 
                             },
 

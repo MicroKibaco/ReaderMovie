@@ -1,12 +1,22 @@
 <import src="movie-list/movie-list-template.wxml" />
 
+<view class="search">
+	<icon type="search" class="search-img" size="13" color="#405f80"></icon>
+		
+		<input type="text" placeholder="金刚狼-杨正友" 
+		placeholder-class="placeholder" 
+		bindchange = "onBindChange"
+		bindfocus="onBindFocus" />
+	
+</view>
+
 <view class="container">
 
 <view class="movies-templates">
 	<template  is="movieListTemplate" data = "{{...inTheaters}}"></template>
 </view>
 
-<view class="movies-templates" >
+<view class="movies-templates" > 
 	<template  is="movieListTemplate" data = "{{...comingSoon}}"></template>
 </view>
 

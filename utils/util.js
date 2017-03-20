@@ -53,7 +53,6 @@ function convertToCastString(casts) {
 
                             success: function (res) {
 
-                                console.log("成功回调: "+res.data);
                                 callBack(res.data);
                                 
 

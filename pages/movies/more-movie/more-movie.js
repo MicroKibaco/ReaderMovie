@@ -81,8 +81,6 @@ Page({
 
     processDouBanData: function(moviesDouban){
     
-                        console.log("processDouBanData: "+moviesDouban);
-
                            var movies = [];
 
                             for(var idx in moviesDouban.subjects){
