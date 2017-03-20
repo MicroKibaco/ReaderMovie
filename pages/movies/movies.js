@@ -11,7 +11,8 @@ Page({
                  comingSoon: {},
                  top250: {},
                  containerShow:true,
-                 searchPanelShow:false
+                 searchPanelShow:false,
+                 searchResult:{}
 
              // 异步处理,初始化赋值
 
@@ -48,7 +49,22 @@ Page({
                  containerShow:true,
                  searchPanelShow:false,
                  
+                 // 清空数据
+                 searchResult:{}
+                 
              });
+
+         },
+
+         // bindchange 触发回车键,失去焦点,最新版官方文档维护此API
+         // bindburl 失去焦点
+         onBindBlur:function(event){
+
+              var text = event.detail.value;
+              var searchUrl = app.globalData.doubanBase +  "/v2/movie/search?q=" + text;
+              console.log(searchUrl);
+              this.getMovieListData(searchUrl,"searchResult","");
+
 
          },
 

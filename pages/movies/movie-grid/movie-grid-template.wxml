@@ -2,8 +2,6 @@
 
 <template name="movieGridTemplate">
 
-<text>搜索页面出来啦</text>
-
 <scroll-view scroll-y = "true" scroll-x="false" bindscrolltolower="OnScrolltolower" class="grid-container">
 		<block wx:for="{{movies}}" wx:for-item="movie">
 		

@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="设置loading状态">
+    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="搜索页面的构建下">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.js" afterPath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxml" afterPath="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movies.js" afterPath="$PROJECT_DIR$/pages/movies/movies.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movies.wxml" afterPath="$PROJECT_DIR$/pages/movies/movies.wxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movies.wxss" afterPath="$PROJECT_DIR$/pages/movies/movies.wxss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/stars/stars-template.wxml" afterPath="$PROJECT_DIR$/pages/movies/stars/stars-template.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/util.js" afterPath="$PROJECT_DIR$/utils/util.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,39 +54,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
-              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <marker date="1489907200000" expanded="true" signature="204:255" ph="{&quot;navigationBarBackgroundColor&quot;: &quot;##405f80&quot;...}" />
-                <marker date="1489907200000" expanded="true" signature="270:797" ph="{&quot;color&quot;: &quot;##666&quot;...}" />
-                <marker date="1489907200000" expanded="true" signature="284:655" ph="[...]" />
-                <marker date="1489907200000" expanded="true" signature="292:461" ph="{&quot;pagePath&quot;: &quot;pages/posts/post&quot;...}" />
-                <marker date="1489907200000" expanded="true" signature="469:649" ph="{&quot;pagePath&quot;: &quot;pages/movies/movies&quot;...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="movies.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/movies/movies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="32" column="63" lean-forward="false" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="63" />
+            <state relative-caret-position="1485">
+              <caret line="71" column="0" lean-forward="false" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="63" />
               <folding>
-                <marker date="1489992203000" expanded="true" signature="3221:3251" ph="{&quot;movies&quot;: movies...}" />
+                <marker date="1489998215000" expanded="true" signature="4146:4176" ph="{&quot;movies&quot;: movies...}" />
               </folding>
             </state>
           </provider>
@@ -114,6 +86,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="movies.wxss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/movies/movies.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="movies.wxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/movies/movies.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="movie-list-template.wxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxml">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="more-movie.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="more-movie.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="55" column="36" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="432">
+              <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -181,13 +173,13 @@
         <option value="$PROJECT_DIR$/data/post-data.js" />
         <option value="$PROJECT_DIR$/pages/welcome/welcome.js" />
         <option value="$PROJECT_DIR$/pages/movies/movies.wxss" />
-        <option value="$PROJECT_DIR$/pages/movies/movies.wxml" />
         <option value="$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxss" />
         <option value="$PROJECT_DIR$/pages/movies/movie/movie-template.wxml" />
         <option value="$PROJECT_DIR$/pages/movies/movies.js" />
         <option value="$PROJECT_DIR$/utils/utils.js" />
         <option value="$PROJECT_DIR$/pages/movies/stars/stars-template.wxml" />
         <option value="$PROJECT_DIR$/pages/movies/more-movie/more-movie.js" />
+        <option value="$PROJECT_DIR$/pages/movies/movies.wxml" />
       </list>
     </option>
   </component>
@@ -542,21 +534,7 @@
       <workItem from="1489749526717" duration="332000" />
       <workItem from="1489751831628" duration="2388000" />
       <workItem from="1489766492640" duration="3523000" />
-      <workItem from="1489828208382" duration="9583000" />
-    </task>
-    <task id="LOCAL-00033" summary="缓存机制">
-      <created>1489543793378</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1489543793378</updated>
-    </task>
-    <task id="LOCAL-00034" summary="使用缓存实现文章收藏功能">
-      <created>1489548313074</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1489548313074</updated>
+      <workItem from="1489828208382" duration="11320000" />
     </task>
     <task id="LOCAL-00035" summary="setStorageSync单词拼错了">
       <created>1489549312985</created>
@@ -887,11 +865,25 @@
       <option name="project" value="LOCAL" />
       <updated>1489933868256</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="搜索页面的构建上">
+      <created>1489992577257</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1489992577257</updated>
+    </task>
+    <task id="LOCAL-00083" summary="搜索页面的构建中">
+      <created>1489994571814</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1489994571814</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51549000" />
+    <option name="totallyTimeSpent" value="53286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
@@ -962,8 +954,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="点击轮播图实现跳转功能" />
-    <MESSAGE value="给项目加入tab选项卡" />
     <MESSAGE value="完善tab选项卡" />
     <MESSAGE value="raactdictto不出现选项卡 如果第一个页面不是tab选项就能跳转" />
     <MESSAGE value="出现了一个跳转天坑" />
@@ -987,7 +977,9 @@
     <MESSAGE value="实现下滑加载更多" />
     <MESSAGE value="设置loading状态" />
     <MESSAGE value="实现下拉刷新数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现下拉刷新数据" />
+    <MESSAGE value="搜索页面的构建上" />
+    <MESSAGE value="搜索页面的构建中" />
+    <option name="LAST_COMMIT_MESSAGE" value="搜索页面的构建中" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1159,14 +1151,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/movies/movies.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/posts/post.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1182,14 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/movies/movies.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1274,10 +1250,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxss">
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="11" column="67" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1290,28 +1274,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxml">
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="67" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="67" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/movies/movies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="32" column="63" lean-forward="false" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="63" />
+        <state relative-caret-position="1485">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="63" />
           <folding>
-            <marker date="1489992203000" expanded="true" signature="3221:3251" ph="{&quot;movies&quot;: movies...}" />
+            <marker date="1489998215000" expanded="true" signature="4146:4176" ph="{&quot;movies&quot;: movies...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.js">
+    <entry file="file://$PROJECT_DIR$/pages/movies/movies.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="55" column="36" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movies.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>
