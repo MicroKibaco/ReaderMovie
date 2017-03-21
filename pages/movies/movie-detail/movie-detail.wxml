@@ -9,7 +9,7 @@
 	  	<text class="main-title">{{movie.title}}</text>
 
 		  <!--年份和产地-->
-		<text class="sub-title">{{movie.country + " . " + movie.year}}</text>
+		<text class="sub-title">{{movie.country + " · " + movie.year}}</text>
 
 		<view class="like">
 		
@@ -76,7 +76,7 @@
 
 	  <view class="cast">
 	  
-	  		<text style="color:#999;margin-bottom:40rpx;">影人</text>
+	  		<text class="cast-font">影人</text>
 
 		   <scroll-view class="cast-imgs" scroll-x="true" style="width:100%">
 		     
