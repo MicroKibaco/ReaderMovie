@@ -56,13 +56,11 @@ Page({
 
          },
 
-         // bindchange 触发回车键,失去焦点,最新版官方文档维护此API
          // bindburl 失去焦点
          onBindBlur:function(event){
 
               var text = event.detail.value;
               var searchUrl = app.globalData.doubanBase +  "/v2/movie/search?q=" + text;
-              console.log(searchUrl);
               this.getMovieListData(searchUrl,"searchResult","");
 
 

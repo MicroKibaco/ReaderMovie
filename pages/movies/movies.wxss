@@ -39,6 +39,14 @@
 
 }
 
+.xx-img{
+
+	height: 30rpx;
+	width: 30rpx;
+	margin: auto 0 auto 10rpx;
+
+}
+
 .placeholder{
 
 	font-size: 14px;
@@ -54,10 +62,3 @@
 
 }
 
-.xx-img{
-
-	height: 30rpx;
-	width: 30rpx;
-	margin: auto 0 auto 10rpx;
-
-}

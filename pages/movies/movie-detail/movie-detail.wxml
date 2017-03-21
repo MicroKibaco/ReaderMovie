@@ -43,7 +43,7 @@
 			<view class="flex-row">
 			
 				<text class="mark">导演</text>
-			    <text>{{movie.director}}</text>
+			    <text>{{movie.director.name}}</text>
 			
 			</view>
 

@@ -57,7 +57,7 @@ Page({
         stars:util.convertToStarsArray(data.rating.stars),
         score: data.rating.average,
         director:director,
-        casts:util.convertToCastInfos(data.casts),
+        casts:util.convertToCastString(data.casts),
         castsInfo:util.convertToCastInfos(data.casts),
         summary:data.summary
 
