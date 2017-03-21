@@ -2,7 +2,7 @@
 
 <template name="movieGridTemplate">
 
-<scroll-view scroll-y = "true" scroll-x="false" bindscrolltolower="OnScrolltolower" class="grid-container">
+<view class="grid-container">
 		<block wx:for="{{movies}}" wx:for-item="movie">
 		
 		<view class="single-view-container">
@@ -11,5 +11,5 @@
 
 	</block>
 
-</scroll-view>
+</view>
 </template>

@@ -58,7 +58,7 @@ Page({
    
   },
 
-    OnScrolltolower:function(event){
+    onReachBottom:function(event){
 
       var nextUrl = this.data.requestUrl + "?start=" + this.data.totalCount + "&count=20";
       
