@@ -14,6 +14,21 @@ Page({
       
   },
 
+
+  // 查看图片
+  viewMoviePostImg: function(e){
+        console.log("viewMoviePostImg: "+e);
+         var src = e.currentTarget.dataset.src;
+         wx.previewImage({
+
+             current:src, // 当前图片显示的http链接
+             urls: [src]  // 需要预览的图片http链接列表
+
+
+         });
+
+    },
+
   processDoubanData:function(data){
 
       if(!data){
@@ -70,6 +85,7 @@ Page({
 
       });
 
-  }
+  },
+
   
 });

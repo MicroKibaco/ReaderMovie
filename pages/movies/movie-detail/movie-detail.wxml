@@ -2,9 +2,9 @@
 
 <view class="container">
 
-	<image class="head-img" src="{{movie.movieImg}}" mode="aspectFill"/>
+	<image class="head-img" src="{{movie.movieImg}}" mode="aspectFill" />
 	  
-	  <view class="header-img-hover">
+	  <view class="header-img-hover" data-src="{{movie.movieImg}}"  catchtap="viewMoviePostImg">
 
 	  	<text class="main-title">{{movie.title}}</text>
 
@@ -23,7 +23,7 @@
 	  </view>
 
 
-	  <image class="movie-img" src="{{movie.movieImg}}" data-src="{{movie.movieImg}}"/>
+	  <image class="movie-img" src="{{movie.movieImg}}" data-src="{{movie.movieImg}}" catchtap="viewMoviePostImg"/>
 
 	  <view class="summary">
 	  
@@ -67,7 +67,7 @@
 
 	  <view class="synopsis">
 	  
-	  		<text>剧情简介</text>
+	  		<text class="synopsis-font">剧情简介</text>
 			<text class="summary-content">{{movie.summary}}</text>
 	  
 	  </view>

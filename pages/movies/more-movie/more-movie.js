@@ -69,6 +69,17 @@ Page({
 
   },
 
+   onMovieTap:function(event){
+
+             var movieId = event.currentTarget.dataset.movieid;
+             wx.navigateTo({
+
+                 url:"../movie-detail/movie-detail?id="+movieId,
+
+             });
+
+    },
+
    onPullDownRefresh: function(event) {
 
       var refreshUrl = this.data.requestUrl + "?start=0&count=20";

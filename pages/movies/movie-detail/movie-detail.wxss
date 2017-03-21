@@ -200,3 +200,9 @@
 	word-break: break-all;
 
 }
+
+.synopsis-font{
+
+	color: #999;
+
+}
