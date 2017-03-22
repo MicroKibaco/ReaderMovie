@@ -2,21 +2,21 @@
 > 小程序的四大特征：无需下载、触手可及、随用随走、无需卸载。
 
 ## 项目目标
- 最大程度的解决小程序爱好者从0基础到入门,小程序入门需要有JS,CSS3 FlexBox和ES6基础,想尽早尝试小程序的小伙伴们赶紧下手学习基础语法吧
+##### 最大程度的解决小程序爱好者从0基础到入门,小程序入门需要有JS,CSS3 FlexBox和ES6基础,想尽早尝试小程序的小伙伴们赶紧下手学习基础语法吧
 
 ## 特点
- 小程序适用于低频应用,应用简单,用完即走,性能要求低的开发,类似于一些推送,嵌webview,视频直播和手机游戏应用,小程序还没有那么大的能耐哦!
+##### 小程序适用于低频应用,应用简单,用完即走,性能要求低的开发,类似于一些推送,嵌webview,视频直播和手机游戏应用,小程序还没有那么大的能耐哦!
 
 ## 开发环境
-官方推荐IDEA:web开发者工具,小编推荐Egret Wing3
+##### 官方推荐IDEA:web开发者工具,小编推荐Egret Wing3
 
-非常感谢 小楼昨夜又秋分 微信小程序教学资源支持
+##### 非常感谢 小楼昨夜又秋分 微信小程序教学资源支持
 
 ## 效果图
 
 [![小程序](http://www.android-gems.com/badge)](http://www.android-gems.com/badge)
 
-so,看一下实现效果图吧!
+##### so,看一下实现效果图吧!
 <div  align="center">  
 <img src="/images/document/weclome.png" width="200px" height="360px" />
 <img src="/images/document/home.png" width="200px" height="360px"/>
@@ -34,7 +34,7 @@ so,看一下实现效果图吧!
 
 ## 常见问题
 
- 1. 为什么会出现“脚本错误或者未正确调用Page（）”的错误提示
+ 1. ###### 为什么会出现“脚本错误或者未正确调用Page（）”的错误提示
  
  <img src="/images/document/page_error.png" />
 
@@ -44,7 +44,7 @@ so,看一下实现效果图吧!
 
 
 
-2. 为什么会出现“Expecting ‘String，‘Number，‘NULL，‘True....’”’’的错误提示？
+2. ###### 为什么会出现“Expecting ‘String，‘Number，‘NULL，‘True....’”’’的错误提示？
 <img src="/images/document/invalid-error.png" />
 
 ```
@@ -53,17 +53,16 @@ so,看一下实现效果图吧!
 
 
 
-3. 为什么出现“ Failed to load image http://2110932784.debug.open.weixin.qq.com/pages/posts/images/post/crab.png : the server responded with a status of 404 (HTTP/1.1 404 Not Found) From server 127.0.0.1”
+3. ###### 为什么出现“ Failed to load image http://2110932784.debug.open.weixin.qq.com/pages/posts/images/post/crab.png : the server responded with a status of 404 (HTTP/1.1 404 Not Found) From server 127.0.0.1”
 <img src="/images/document/faild_load.png" />
 
 ```
-出现类似的这种错误，通常是由于图片的路径不对而引起的。外网的图片，我们这里不再说了，因为没有相对和绝对的路径概念，如果报错了就是你外网的图片url错了。我们说说本地的图片路径问题。请注意，如果图片路径被写在一个js文件A里，而B引用了这个js文件，那么图片的路径必须是相对于B的相对路径。所以，最好在公共的js文件里使用绝对路径。
-还有一点，提醒大家，小程序对资源文件，比如图片是有缓存的，这个大家要注意
+出现类似的这种错误，通常是由于图片的路径不对而引起的。外网的图片，我们这里不再说了，因为没有相对和绝对的路径概念，如果报错了就是你外网的图片url错了。我们说说本地的图片路径问题。请注意，如果图片路径被写在一个js文件A里，而B引用了这个js文件，那么图片的路径必须是相对于B的相对路径。所以，最好在公共的js文件里使用绝对路径。还有一点，提醒大家，小程序对资源文件，比如图片是有缓存的，这个大家要注意
 ```  
   
   
   
-4. 出现please do not register multiple Pages in undefined.js 错误
+4. ###### 出现please do not register multiple Pages in undefined.js 错误
   <img src="/images/document/undenfinedjs.png" />
   
   ```
@@ -72,14 +71,13 @@ so,看一下实现效果图吧!
 
 
 
-5. 为什么在真机预览时，会出现“缺少文件，错误信息：error:iconPath=.......file not found?”
+5. ###### 为什么在真机预览时，会出现“缺少文件，错误信息：error:iconPath=.......file not found?”
 
 <img src="/images/document/FileNotFound.png" />
 
 
 ```
-app.json的tabBar选项中，list下的iconPath出现了绝对路径 “ / ”
-比如:
+app.json的tabBar选项中，list下的iconPath出现了绝对路径 “ / ”比如:
 ```
 
 
@@ -100,10 +98,10 @@ app.json的tabBar选项中，list下的iconPath出现了绝对路径 “ / ”
 
 
 ## 其他问题
-作者信息:
+##### 作者信息:
 * 小木箱
 
-文档参考:
+##### 文档参考:
 
 * [小楼昨夜又秋分](https://zhuanlan.zhihu.com/oldtimes)
 * [微信公众平台Q&A](http://developers.weixin.qq.com/home?tab=1&labels=&lang=zh_CN&token=)

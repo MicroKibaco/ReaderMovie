@@ -25,8 +25,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="297">
-                <caret line="42" column="3" lean-forward="false" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+              <first_editor relative-caret-position="464">
+                <caret line="103" column="6" lean-forward="false" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -484,14 +484,7 @@
       <workItem from="1490093474219" duration="1757000" />
       <workItem from="1490145671641" duration="9416000" />
       <workItem from="1490169147106" duration="3400000" />
-      <workItem from="1490174193311" duration="1090000" />
-    </task>
-    <task id="LOCAL-00057" summary="三个嵌套template的使用">
-      <created>1489716999931</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1489716999932</updated>
+      <workItem from="1490174193311" duration="1304000" />
     </task>
     <task id="LOCAL-00058" summary="不规范的命名方式">
       <created>1489718865069</created>
@@ -829,11 +822,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490173627492</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="微信公众平台Q&amp;A">
+      <created>1490179332593</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1490179332593</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79010000" />
+    <option name="totallyTimeSpent" value="79224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1226,8 +1226,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="297">
-            <caret line="42" column="3" lean-forward="false" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+          <first_editor relative-caret-position="464">
+            <caret line="103" column="6" lean-forward="false" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
