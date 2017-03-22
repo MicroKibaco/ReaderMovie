@@ -14,6 +14,8 @@
 
 ## 效果图
 
+[![小程序](http://www.android-gems.com/badge)](http://www.android-gems.com/badge)
+
 so,看一下实现效果图吧!
 <div  align="center">  
 <img src="/images/document/weclome.png" width="200px" height="360px" />
