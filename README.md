@@ -95,7 +95,9 @@ app.json的tabBar选项中，list下的iconPath出现了绝对路径 “ / ”�
       }],   
 ```
 
-
+## 预览图
+##### 接下来,我们就来看看aiReader的演示图吧!
+<img src="/images/document/preview.gif" />
 
 ## 其他问题
 ### 作者信息:

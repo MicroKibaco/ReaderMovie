@@ -24,6 +24,7 @@
 
 <block wx:for="{{post_key}}">
 
+		 <!--for-item默认值就是item-->
 	<view catchtap = "onPostTap" data-postId = "{{item.postId}}">
 	     <!--temple模板 ...展开和平铺所有的对象-->
 		<template is = "postItem" data="{{...item}}"/>
