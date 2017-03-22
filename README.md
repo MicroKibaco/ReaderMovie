@@ -98,10 +98,10 @@ app.json的tabBar选项中，list下的iconPath出现了绝对路径 “ / ”�
 
 
 ## 其他问题
-##### 作者信息:
-* 小木箱
+### 作者信息:
+* ##### 小木箱
 
-##### 文档参考:
+### 文档参考:
 
-* [小楼昨夜又秋分](https://zhuanlan.zhihu.com/oldtimes)
-* [微信公众平台Q&A](http://developers.weixin.qq.com/home?tab=1&labels=&lang=zh_CN&token=)
+* ##### [小楼昨夜又秋分](https://zhuanlan.zhihu.com/oldtimes)
+* ##### [微信公众平台Q&A](http://developers.weixin.qq.com/home?tab=1&labels=&lang=zh_CN&token=)
