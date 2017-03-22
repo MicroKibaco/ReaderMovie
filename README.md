@@ -7,13 +7,14 @@
 最大程度的解决小程序爱好者从0基础到入门
 
 so,看一下实现效果图吧!
-
-<img src="weclome.png" width="200px" height="360px"/>
+<div  align="center">  
+<img src="weclome.png" width="200px" height="360px" />
 
 <img src="home.png" width="200px" height="360px"/>
 
 <img src="playmusic.png" width="200px" height="360px"/>
 
 <img src="share.png" width="200px" height="360px"/>
+</div>
 
 
