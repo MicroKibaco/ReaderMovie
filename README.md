@@ -17,25 +17,15 @@
 so,看一下实现效果图吧!
 <div  align="center">  
 <img src="weclome.png" width="200px" height="360px" />
-
 <img src="home.png" width="200px" height="360px"/>
-
 <img src="playmusic.png" width="200px" height="360px"/>
-
 <img src="share.png" width="200px" height="360px"/>
-
-<img src="share_modal.png" width="200px" height="360px"/>
 </div>
 
 <div  align="center">  
 <img src="viewpreview.png" width="200px" height="360px" />
-
 <img src="movielist.png" width="200px" height="360px"/>
-
-<img src="moviedetail.png" width="200px" height="360px"/>
-
 <img src="movie_search.png" width="200px" height="360px"/>
-
 <img src="movie-info.png" width="200px" height="360px"/>
 </div>
 
