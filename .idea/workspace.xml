@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="小楼昨夜又秋分">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FileNotFound.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faild_load.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/invalid-error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/undenfinedjs.png" />
+    <list default="true" id="aa06a789-c27f-4807-b6cb-7e816f98f135" name="Default" comment="图片提交">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/document/FileNotFound.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/document/faild_load.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/document/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/document/invalid-error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/document/movie-info.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/document/movie_search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/document/moviedetail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/document/movielist.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/document/page_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/document/playmusic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/document/share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/document/share_modal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/document/undenfinedjs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/document/viewpreview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/document/weclome.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FileNotFound.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faild_load.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/invalid-error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movie-info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movie_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moviedetail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movielist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page_error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/playmusic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/share.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/share_modal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/undenfinedjs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/viewpreview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/weclome.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -30,8 +55,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="599">
-                <caret line="78" column="46" lean-forward="false" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+              <first_editor relative-caret-position="-1702">
+                <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -39,45 +64,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_error.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page_error.png">
+      <file leaf-file-name="weclome.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/document/weclome.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="playmusic.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/playmusic.png">
+      <file leaf-file-name="playmusic.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/images/document/playmusic.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="moviedetail.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/moviedetail.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movie-info.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movie-info.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movielist.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movielist.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movie_search.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movie_search.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="jsconfig.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -236,6 +243,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReaderMovie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReaderMovie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReaderMovie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReaderMovie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="document" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -371,21 +410,7 @@
       <workItem from="1489828208382" duration="21381000" />
       <workItem from="1490093474219" duration="1757000" />
       <workItem from="1490145671641" duration="9416000" />
-      <workItem from="1490169147106" duration="12000" />
-    </task>
-    <task id="LOCAL-00052" summary="点击轮播图实现跳转功能">
-      <created>1489654594194</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1489654594194</updated>
-    </task>
-    <task id="LOCAL-00053" summary="给项目加入tab选项卡">
-      <created>1489665514521</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1489665514521</updated>
+      <workItem from="1490169147106" duration="1829000" />
     </task>
     <task id="LOCAL-00054" summary="完善tab选项卡">
       <created>1489667047255</created>
@@ -716,20 +741,34 @@
       <option name="project" value="LOCAL" />
       <updated>1490165761403</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="图片提交">
+      <created>1490169171103</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1490169171103</updated>
+    </task>
+    <task id="LOCAL-00102" summary="图片提交">
+      <created>1490169398550</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1490169398550</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74532000" />
+    <option name="totallyTimeSpent" value="76349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1687853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21822034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5007299" sideWeight="0.50329256" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49299362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50063694" sideWeight="0.50329256" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07643312" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5974522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -791,7 +830,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="1.提交utils-covertToStarsArray 单词写错&#10;2.解除注释" />
     <MESSAGE value="更换电影标题" />
     <MESSAGE value="编制小星星" />
     <MESSAGE value="更多页面编写思路与电影类型获取" />
@@ -816,7 +854,8 @@
     <MESSAGE value="add README文档" />
     <MESSAGE value="文档居中显示" />
     <MESSAGE value="小楼昨夜又秋分" />
-    <option name="LAST_COMMIT_MESSAGE" value="小楼昨夜又秋分" />
+    <MESSAGE value="图片提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="图片提交" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -824,20 +863,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/welcome/welcome.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/welcome/welcome.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/loading_anim.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -875,13 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3186">
           <caret line="118" column="1" lean-forward="false" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1097,11 +1115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/share_modal.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/more_star.png" />
     <entry file="file://$PROJECT_DIR$/movie_search.png">
       <provider selected="true" editor-type-id="images">
@@ -1136,18 +1149,41 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/page_error.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share_modal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="599">
-            <caret line="78" column="46" lean-forward="false" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+          <first_editor relative-caret-position="-1702">
+            <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_error.png">
+    <entry file="file://$PROJECT_DIR$/images/document/weclome.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/document/playmusic.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
