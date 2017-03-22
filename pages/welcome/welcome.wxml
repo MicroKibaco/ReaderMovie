@@ -5,7 +5,7 @@
     <text class="user-name">Hello, 小木箱 !</text>
 
     <view class="moto-container" bindtap="onTap">
-        <text class="moto">开启aiReader</text>
+        <text class="moto">开启小程序之旅</text>
     </view>
 
 </view>
