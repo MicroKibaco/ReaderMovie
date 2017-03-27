@@ -10,7 +10,7 @@
 ## 开发环境
 ##### 官方推荐IDEA:web开发者工具,小编推荐Egret Wing3
 
-##### 非常感谢 小楼昨夜又秋分 微信小程序教学资源支持
+##### 非常感谢 小楼昨夜又秋风 微信小程序教学资源支持
 
 ## 效果图
 
@@ -105,5 +105,5 @@ app.json的tabBar选项中，list下的iconPath出现了绝对路径 “ / ”�
 
 ### 文档参考:
 
-* ##### [小楼昨夜又秋分](https://zhuanlan.zhihu.com/oldtimes)
+* ##### [小楼昨夜又秋风](https://zhuanlan.zhihu.com/oldtimes)
 * ##### [微信公众平台Q&A](http://developers.weixin.qq.com/home?tab=1&labels=&lang=zh_CN&token=)
